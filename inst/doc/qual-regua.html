@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+<title>Qual régua responde à sua pergunta</title>
+
+<script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
+// be compatible with the behavior of Pandoc < 2.8).
+document.addEventListener('DOMContentLoaded', function(e) {
+  var hs = document.querySelectorAll("div.section[class*='level'] > :first-child");
+  var i, h, a;
+  for (i = 0; i < hs.length; i++) {
+    h = hs[i];
+    if (!/^h[1-6]$/i.test(h.tagName)) continue;  // it should be a header h1-h6
+    a = h.attributes;
+    while (a.length > 0) h.removeAttribute(a[0].name);
+  }
+});
+</script>
+
+<style type="text/css">
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+
+<style type="text/css">
+code {
+white-space: pre;
+}
+.sourceCode {
+overflow: visible;
+}
+</style>
+<style type="text/css" data-origin="pandoc">
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+color: #aaaaaa;
+}
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa; padding-left: 4px; }
+div.sourceCode
+{ }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } 
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.at { color: #7d9029; } 
+code span.bn { color: #40a070; } 
+code span.bu { color: #008000; } 
+code span.cf { color: #007020; font-weight: bold; } 
+code span.ch { color: #4070a0; } 
+code span.cn { color: #880000; } 
+code span.co { color: #60a0b0; font-style: italic; } 
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.do { color: #ba2121; font-style: italic; } 
+code span.dt { color: #902000; } 
+code span.dv { color: #40a070; } 
+code span.er { color: #ff0000; font-weight: bold; } 
+code span.ex { } 
+code span.fl { color: #40a070; } 
+code span.fu { color: #06287e; } 
+code span.im { color: #008000; font-weight: bold; } 
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.kw { color: #007020; font-weight: bold; } 
+code span.op { color: #666666; } 
+code span.ot { color: #007020; } 
+code span.pp { color: #bc7a00; } 
+code span.sc { color: #4070a0; } 
+code span.ss { color: #bb6688; } 
+code span.st { color: #4070a0; } 
+code span.va { color: #19177c; } 
+code span.vs { color: #4070a0; } 
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } 
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    var j = 0;
+    while (j < rules.length) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") {
+        j++;
+        continue;
+      }
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') {
+        j++;
+        continue;
+      }
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
+
+
+
+
+<style type="text/css">body {
+background-color: #fff;
+margin: 1em auto;
+max-width: 700px;
+overflow: visible;
+padding-left: 2em;
+padding-right: 2em;
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 1.35;
+}
+#TOC {
+clear: both;
+margin: 0 0 10px 10px;
+padding: 4px;
+width: 400px;
+border: 1px solid #CCCCCC;
+border-radius: 5px;
+background-color: #f6f6f6;
+font-size: 13px;
+line-height: 1.3;
+}
+#TOC .toctitle {
+font-weight: bold;
+font-size: 15px;
+margin-left: 5px;
+}
+#TOC ul {
+padding-left: 40px;
+margin-left: -1.5em;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+#TOC ul ul {
+margin-left: -2em;
+}
+#TOC li {
+line-height: 16px;
+}
+table {
+margin: 1em auto;
+border-width: 1px;
+border-color: #DDDDDD;
+border-style: outset;
+border-collapse: collapse;
+}
+table th {
+border-width: 2px;
+padding: 5px;
+border-style: inset;
+}
+table td {
+border-width: 1px;
+border-style: inset;
+line-height: 18px;
+padding: 5px 5px;
+}
+table, table th, table td {
+border-left-style: none;
+border-right-style: none;
+}
+table thead, table tr.even {
+background-color: #f7f7f7;
+}
+p {
+margin: 0.5em 0;
+}
+blockquote {
+background-color: #f6f6f6;
+padding: 0.25em 0.75em;
+}
+hr {
+border-style: solid;
+border: none;
+border-top: 1px solid #777;
+margin: 28px 0;
+}
+dl {
+margin-left: 0;
+}
+dl dd {
+margin-bottom: 13px;
+margin-left: 13px;
+}
+dl dt {
+font-weight: bold;
+}
+ul {
+margin-top: 0;
+}
+ul li {
+list-style: circle outside;
+}
+ul ul {
+margin-bottom: 0;
+}
+pre, code {
+background-color: #f7f7f7;
+border-radius: 3px;
+color: #333;
+white-space: pre-wrap; 
+}
+pre {
+border-radius: 3px;
+margin: 5px 0px 10px 0px;
+padding: 10px;
+}
+pre:not([class]) {
+background-color: #f7f7f7;
+}
+code {
+font-family: Consolas, Monaco, 'Courier New', monospace;
+font-size: 85%;
+}
+p > code, li > code {
+padding: 2px 0px;
+}
+div.figure {
+text-align: center;
+}
+img {
+background-color: #FFFFFF;
+padding: 2px;
+border: 1px solid #DDDDDD;
+border-radius: 3px;
+border: 1px solid #CCCCCC;
+margin: 0 5px;
+}
+h1 {
+margin-top: 0;
+font-size: 35px;
+line-height: 40px;
+}
+h2 {
+border-bottom: 4px solid #f7f7f7;
+padding-top: 10px;
+padding-bottom: 2px;
+font-size: 145%;
+}
+h3 {
+border-bottom: 2px solid #f7f7f7;
+padding-top: 10px;
+font-size: 120%;
+}
+h4 {
+border-bottom: 1px solid #f7f7f7;
+margin-left: 8px;
+font-size: 105%;
+}
+h5, h6 {
+border-bottom: 1px solid #ccc;
+font-size: 105%;
+}
+a {
+color: #0033dd;
+text-decoration: none;
+}
+a:hover {
+color: #6666ff; }
+a:visited {
+color: #800080; }
+a:visited:hover {
+color: #BB00BB; }
+a[href^="http:"] {
+text-decoration: underline; }
+a[href^="https:"] {
+text-decoration: underline; }
+
+code > span.kw { color: #555; font-weight: bold; } 
+code > span.dt { color: #902000; } 
+code > span.dv { color: #40a070; } 
+code > span.bn { color: #d14; } 
+code > span.fl { color: #d14; } 
+code > span.ch { color: #d14; } 
+code > span.st { color: #d14; } 
+code > span.co { color: #888888; font-style: italic; } 
+code > span.ot { color: #007020; } 
+code > span.al { color: #ff0000; font-weight: bold; } 
+code > span.fu { color: #900; font-weight: bold; } 
+code > span.er { color: #a61717; background-color: #e3d2d2; } 
+</style>
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+<h1 class="title toc-ignore">Qual régua responde à sua pergunta</h1>
+
+
+
+<p>O pacote oferece quatro medidas com a mesma facilidade. Elas
+<strong>não são intercambiáveis</strong>, e nenhuma delas é “a melhor” —
+cada uma responde a uma pergunta diferente, e a facilidade de trocar uma
+pela outra é o principal risco de usar este pacote.</p>
+<p>Esta vinheta é sobre escolher. A ordem dos avisos abaixo é a ordem em
+que as pessoas erram.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">library</span>(ocupacoesBR)</span></code></pre></div>
+<div id="escolha-a-régua-pela-pergunta" class="section level2">
+<h2>1. Escolha a régua pela pergunta</h2>
+<p>A tabela abaixo não está digitada aqui: ela é a tabela
+<code>reguas</code>, que viaja com o pacote e pode ser consultada de
+dentro do R.</p>
+<table>
+<colgroup>
+<col width="39%" />
+<col width="16%" />
+<col width="44%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">se você quer saber…</th>
+<th align="left">use</th>
+<th align="left">o que ela mede</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">quanto uma posição converte educação em renda</td>
+<td align="left"><code>tse_para_isei()</code></td>
+<td align="left">status socioeconômico, contínua</td>
+</tr>
+<tr class="even">
+<td align="left">o quanto uma ocupação é socialmente estimada</td>
+<td align="left"><code>tse_para_prestigio()</code></td>
+<td align="left">prestígio, isto é, reputação e não recurso,
+contínua</td>
+</tr>
+<tr class="odd">
+<td align="left">a relação de emprego: quem contrata, quem é
+contratado</td>
+<td align="left"><code>tse_para_egp()</code></td>
+<td align="left">classe relacional, categórica</td>
+</tr>
+<tr class="even">
+<td align="left">a estrutura de classes do dado eleitoral
+brasileiro</td>
+<td align="left"><code>tse_para_classe()</code></td>
+<td align="left">esquema próprio, que cobre os 17 códigos sem ISCO,
+categórica</td>
+</tr>
+</tbody>
+</table>
+<p>As outras cinco réguas — ISEI-08, ISEI-BR, prestígio-08, estrato e a
+partição da classe alta — estão na mesma tabela, com a mesma coluna
+dizendo quando cada uma é a escolha errada:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a>reguas[, <span class="fu">c</span>(<span class="st">&quot;medida&quot;</span>, <span class="st">&quot;pergunta&quot;</span>, <span class="st">&quot;quando_nao_usar&quot;</span>)]</span></code></pre></div>
+<div id="isei-e-prestígio-não-são-a-mesma-coisa" class="section level3">
+<h3>ISEI e prestígio não são a mesma coisa</h3>
+<p>Correlacionam-se forte, e é justamente por isso que a diferença passa
+despercebida:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a>cw <span class="ot">&lt;-</span> <span class="fu">crosswalk_tse</span>()</span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a>ok <span class="ot">&lt;-</span> <span class="sc">!</span><span class="fu">is.na</span>(cw<span class="sc">$</span>isei88) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(cw<span class="sc">$</span>siops88)</span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a><span class="fu">round</span>(<span class="fu">cor</span>(cw<span class="sc">$</span>isei88[ok], cw<span class="sc">$</span>siops88[ok]), <span class="dv">3</span>)</span>
+<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a><span class="co">#&gt; [1] 0.944</span></span></code></pre></div>
+<p>Mas onde discordam, discordam na direção que importa:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a>cw<span class="sc">$</span>dif <span class="ot">&lt;-</span> cw<span class="sc">$</span>siops88 <span class="sc">-</span> cw<span class="sc">$</span>isei88</span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a>d <span class="ot">&lt;-</span> cw[ok, <span class="fu">c</span>(<span class="st">&quot;rotulo&quot;</span>, <span class="st">&quot;isei88&quot;</span>, <span class="st">&quot;siops88&quot;</span>, <span class="st">&quot;dif&quot;</span>)]</span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a><span class="fu">rbind</span>(<span class="fu">head</span>(d[<span class="fu">order</span>(d<span class="sc">$</span>dif), ], <span class="dv">3</span>),</span>
+<span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a>      <span class="fu">head</span>(d[<span class="fu">order</span>(<span class="sc">-</span>d<span class="sc">$</span>dif), ], <span class="dv">3</span>))</span>
+<span id="cb4-5"><a href="#cb4-5" tabindex="-1"></a><span class="co">#&gt;                                        rotulo isei88 siops88 dif</span></span>
+<span id="cb4-6"><a href="#cb4-6" tabindex="-1"></a><span class="co">#&gt; 105 MINISTRO DO PODER JUDICIARIO E MAGISTRADO     90      76 -14</span></span>
+<span id="cb4-7"><a href="#cb4-7" tabindex="-1"></a><span class="co">#&gt; 168                                MAGISTRADO     90      76 -14</span></span>
+<span id="cb4-8"><a href="#cb4-8" tabindex="-1"></a><span class="co">#&gt; 14                                VETERINARIO     85      73 -12</span></span>
+<span id="cb4-9"><a href="#cb4-9" tabindex="-1"></a><span class="co">#&gt; 107                                JARDINEIRO     23      38  15</span></span>
+<span id="cb4-10"><a href="#cb4-10" tabindex="-1"></a><span class="co">#&gt; 238                                AGRICULTOR     23      38  15</span></span>
+<span id="cb4-11"><a href="#cb4-11" tabindex="-1"></a><span class="co">#&gt; 241                                  PESCADOR     23      38  15</span></span></code></pre></div>
+<p>O magistrado tem ISEI <strong>90</strong> e prestígio
+<strong>76</strong>: a posição converte credencial em retorno melhor do
+que a sociedade a estima. O enfermeiro faz o inverso — ISEI
+<strong>43</strong>, prestígio <strong>54</strong>.</p>
+<p><strong>A consequência é direta.</strong> Uma pesquisa sobre “quem
+tem posição de topo no recrutamento” e outra sobre “quem é socialmente
+valorizado” vão ordenar as profissões de saúde de formas diferentes, e
+as duas estarão certas. Escolha antes de rodar, e diga qual
+escolheu.</p>
+</div>
+</div>
+<div id="na-não-é-zero-e-a-ausência-é-generificada" class="section level2">
+<h2>2. <code>NA</code> não é zero, e a ausência é generificada</h2>
+<p>Dezessete dos 275 códigos não designam ocupação alguma — não
+informada, fora da PEA, vínculo sem função —, e por isso não têm ISEI,
+prestígio nem EGP:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="fu">sum</span>(<span class="fu">is.na</span>(cw<span class="sc">$</span>isco88))</span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a><span class="co">#&gt; [1] 17</span></span></code></pre></div>
+<p>Isso <strong>não</strong> é falha de cobertura: é a resposta correta.
+O erro é tratar esses casos como zero, ou tirá-los da conta sem
+dizer.</p>
+<p>E há uma armadilha específica: o padrão de ausência é
+<strong>fortemente generificado</strong>. Entre as candidaturas ao TSE,
+cerca de 15% das mulheres caem na classe
+<code>&quot;Fora da PEA por posição&quot;</code> — os códigos 581 e 931 —, contra
+pouco mais de 1% dos homens.</p>
+<p>Vale nomear a classe, porque a assimetria é dela e só dela: a outra
+residual, <code>&quot;Inativo com trajetória&quot;</code>, fica em torno de 4% nos
+<strong>dois</strong> sexos. Quem somar as duas dilui justamente o
+padrão que importa aqui.</p>
+<p>Uma média de ISEI por gênero, com <code>na.rm = TRUE</code>, compara
+então duas subpopulações truncadas de formas diferentes, e parte da
+“vantagem feminina em status” que aparece pode vir daí. Quanto
+exatamente, esta vinheta não mede — o ponto é que a comparação não é
+entre iguais, e que a cobertura tem de ser relatada ao lado da
+média.</p>
+<p>Quem for comparar médias por grupo <strong>precisa reportar a
+cobertura junto</strong>:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a><span class="co"># sempre, não às vezes</span></span>
+<span id="cb6-2"><a href="#cb6-2" tabindex="-1"></a><span class="fu">tapply</span>(isei, genero, <span class="cf">function</span>(x) <span class="fu">c</span>(<span class="at">media =</span> <span class="fu">mean</span>(x, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb6-3"><a href="#cb6-3" tabindex="-1"></a>                                   <span class="at">cobertura =</span> <span class="fu">mean</span>(<span class="sc">!</span><span class="fu">is.na</span>(x))))</span></code></pre></div>
+<p><code>isei_retrospectivo()</code> recupera parte disso carregando a
+ocupação anterior da própria pessoa — a cobertura feminina sobe cerca de
+seis pontos (os valores exatos estão em
+<code>?isei_retrospectivo</code>). Não resolve; reduz.</p>
+</div>
+<div id="a-régua-categórica-cobre-onde-a-contínua-não-chega" class="section level2">
+<h2>3. A régua categórica cobre onde a contínua não chega</h2>
+<p>Os mesmos 17 códigos sem ISEI <strong>têm</strong> classe:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="fu">table</span>(cw<span class="sc">$</span>classe[<span class="fu">is.na</span>(cw<span class="sc">$</span>isco88)])</span>
+<span id="cb7-2"><a href="#cb7-2" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a><span class="co">#&gt;          Fora da PEA por posição           Inativo com trajetória </span></span>
+<span id="cb7-4"><a href="#cb7-4" tabindex="-1"></a><span class="co">#&gt;                                2                                6 </span></span>
+<span id="cb7-5"><a href="#cb7-5" tabindex="-1"></a><span class="co">#&gt;    Militares e segurança pública                    Não informado </span></span>
+<span id="cb7-6"><a href="#cb7-6" tabindex="-1"></a><span class="co">#&gt;                                1                                4 </span></span>
+<span id="cb7-7"><a href="#cb7-7" tabindex="-1"></a><span class="co">#&gt; Vínculo público não especificado </span></span>
+<span id="cb7-8"><a href="#cb7-8" tabindex="-1"></a><span class="co">#&gt;                                4</span></span></code></pre></div>
+<p>“Inativo com trajetória” e “Vínculo público não especificado” são
+posições sociais reconhecíveis; elas só não são pontos numa escala de
+status. Se a sua pergunta comporta uma categoria residual nomeada, o
+esquema categórico diz mais do que a escala contínua.</p>
+</div>
+<div id="categoria-residual-não-é-estrato" class="section level2">
+<h2>4. Categoria residual não é estrato</h2>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a><span class="fu">table</span>(cw<span class="sc">$</span>estrato)</span>
+<span id="cb8-2"><a href="#cb8-2" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb8-3"><a href="#cb8-3" tabindex="-1"></a><span class="co">#&gt;                      Classe alta                     Classe média </span></span>
+<span id="cb8-4"><a href="#cb8-4" tabindex="-1"></a><span class="co">#&gt;                               88                               70 </span></span>
+<span id="cb8-5"><a href="#cb8-5" tabindex="-1"></a><span class="co">#&gt;                Classes populares      Fora da PEA / não informado </span></span>
+<span id="cb8-6"><a href="#cb8-6" tabindex="-1"></a><span class="co">#&gt;                              101                               12 </span></span>
+<span id="cb8-7"><a href="#cb8-7" tabindex="-1"></a><span class="co">#&gt; Vínculo público não especificado </span></span>
+<span id="cb8-8"><a href="#cb8-8" tabindex="-1"></a><span class="co">#&gt;                                4</span></span></code></pre></div>
+<p>“Fora da PEA / não informado” e “Vínculo público não especificado”
+<strong>não são estratos</strong>. Somá-los a “Classes populares” — a
+tentação óbvia, porque parecem “baixo” — inventa uma classe popular que
+não foi medida. Eles ficam à parte de propósito.</p>
+</div>
+<div id="não-publique-egp-de-onze-classes-a-partir-do-tse" class="section level2">
+<h2>5. Não publique EGP de onze classes a partir do TSE</h2>
+<p>O EGP exige posição no emprego <strong>e</strong> número de
+subordinados. O TSE não pergunta o segundo:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="fu">tse_para_egp</span>(<span class="fu">c</span>(<span class="dv">111</span>, <span class="dv">169</span>, <span class="dv">601</span>))</span>
+<span id="cb9-2"><a href="#cb9-2" tabindex="-1"></a><span class="co">#&gt; Warning: EGP calculado sem `n_supervisionados`. A divisão entre IVa (com</span></span>
+<span id="cb9-3"><a href="#cb9-3" tabindex="-1"></a><span class="co">#&gt; empregados) e IVb (sem) fica indeterminada — todos caem em IVb — e V fica</span></span>
+<span id="cb9-4"><a href="#cb9-4" tabindex="-1"></a><span class="co">#&gt; subestimada; para publicar prefira n_classes = 7 ou 5; veja ?isco88_para_egp.</span></span>
+<span id="cb9-5"><a href="#cb9-5" tabindex="-1"></a><span class="co">#&gt; [1] &quot;I: dirigentes e profissionais superiores&quot;</span></span>
+<span id="cb9-6"><a href="#cb9-6" tabindex="-1"></a><span class="co">#&gt; [2] &quot;IVb: conta própria sem empregados&quot;       </span></span>
+<span id="cb9-7"><a href="#cb9-7" tabindex="-1"></a><span class="co">#&gt; [3] &quot;IVc: proprietário rural&quot;</span></span></code></pre></div>
+<p>O aviso diz o que falta. Repare no que ele <strong>não</strong> diz
+mais: a pequena burguesia aparece, porque o dicionário do TSE marca quem
+trabalha por conta própria, e o pacote usa essa marca.</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" tabindex="-1"></a><span class="fu">c</span>(<span class="at">conta_propria =</span> <span class="fu">sum</span>(tse_isco<span class="sc">$</span>conta_propria, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb10-2"><a href="#cb10-2" tabindex="-1"></a>  <span class="at">proprietario  =</span> <span class="fu">sum</span>(tse_isco<span class="sc">$</span>proprietario,  <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb10-3"><a href="#cb10-3" tabindex="-1"></a><span class="co">#&gt; conta_propria  proprietario </span></span>
+<span id="cb10-4"><a href="#cb10-4" tabindex="-1"></a><span class="co">#&gt;            12            10</span></span></code></pre></div>
+<p>São marcas distintas, e é a primeira que o EGP usa. O agricultor e o
+pescador trabalham por conta própria — o <code>SEMPL = 2</code> que o
+esquema exige para chegar a IVc — sem pertencerem à classe proprietária.
+O que continua indeterminado é a divisão entre IVa (com empregados) e
+IVb (sem).</p>
+<p><strong>Para publicar, colapse:</strong></p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="fu">table</span>(<span class="fu">tse_para_egp</span>(tse_isco<span class="sc">$</span>cod_tse, <span class="at">n_classes =</span> <span class="dv">5</span>, <span class="at">avisar =</span> <span class="cn">FALSE</span>),</span>
+<span id="cb11-2"><a href="#cb11-2" tabindex="-1"></a>      <span class="at">useNA =</span> <span class="st">&quot;no&quot;</span>)</span>
+<span id="cb11-3"><a href="#cb11-3" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb11-4"><a href="#cb11-4" tabindex="-1"></a><span class="co">#&gt;              I-III: colarinho branco              IVab: pequena burguesia </span></span>
+<span id="cb11-5"><a href="#cb11-5" tabindex="-1"></a><span class="co">#&gt;                                  179                                    5 </span></span>
+<span id="cb11-6"><a href="#cb11-6" tabindex="-1"></a><span class="co">#&gt;                  IVc+VIIb: agrícolas     V+VI: trabalhadores qualificados </span></span>
+<span id="cb11-7"><a href="#cb11-7" tabindex="-1"></a><span class="co">#&gt;                                    8                                   38 </span></span>
+<span id="cb11-8"><a href="#cb11-8" tabindex="-1"></a><span class="co">#&gt; VIIa: trabalhadores não qualificados </span></span>
+<span id="cb11-9"><a href="#cb11-9" tabindex="-1"></a><span class="co">#&gt;                                   28</span></span></code></pre></div>
+<p>Em cinco classes, IVa e IVb se fundem em IVab e a indeterminação
+desaparece.</p>
+<p>A PNAD Contínua vai mais longe: ela tem posição na ocupação e número
+de empregados, o que <strong>separa IVa de IVb</strong> — a distinção
+que aqui ficou indeterminada. Mas nem ela fecha o esquema: falta a
+supervisão exercida sobre assalariados, que é o que define V. Nenhuma
+das quatro portas do pacote a tem. Veja <code>cod_para_egp()</code>.</p>
+</div>
+<div id="série-longa-o-cadastro-do-tse-mudou-embaixo-do-dado" class="section level2">
+<h2>6. Série longa: o cadastro do TSE mudou embaixo do dado</h2>
+<p>Entre 2000 e 2002 o TSE reeditou a tabela de ocupações. Sete códigos
+passaram a designar <strong>outra</strong> ocupação:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" tabindex="-1"></a>q <span class="ot">&lt;-</span> tse_quebra_2002[tse_quebra_2002<span class="sc">$</span>tipo <span class="sc">==</span> <span class="st">&quot;reutilizado&quot;</span>, ]</span>
+<span id="cb12-2"><a href="#cb12-2" tabindex="-1"></a>q[, <span class="fu">c</span>(<span class="st">&quot;cod_tse&quot;</span>, <span class="st">&quot;rotulo_ate_2000&quot;</span>, <span class="st">&quot;rotulo_apos_2002&quot;</span>)]</span>
+<span id="cb12-3"><a href="#cb12-3" tabindex="-1"></a><span class="co">#&gt;    cod_tse                                               rotulo_ate_2000</span></span>
+<span id="cb12-4"><a href="#cb12-4" tabindex="-1"></a><span class="co">#&gt; 5      214                                           DELEGADO DE POLICIA</span></span>
+<span id="cb12-5"><a href="#cb12-5" tabindex="-1"></a><span class="co">#&gt; 6      391                                           CHEFE INTERMEDIARIO</span></span>
+<span id="cb12-6"><a href="#cb12-6" tabindex="-1"></a><span class="co">#&gt; 7      215        OCUPANTE DE CARGO DE DIRECAO E ASSESSORAMENTO SUPERIOR</span></span>
+<span id="cb12-7"><a href="#cb12-7" tabindex="-1"></a><span class="co">#&gt; 8      216               OFICIAIS DAS FORCAS ARMADAS E FORCAS AUXILIARES</span></span>
+<span id="cb12-8"><a href="#cb12-8" tabindex="-1"></a><span class="co">#&gt; 9      521 GOVERNANTA DE HOTEL, CAMAREIRO, PORTEIRO, COZINHEIRO E GARCOM</span></span>
+<span id="cb12-9"><a href="#cb12-9" tabindex="-1"></a><span class="co">#&gt; 13     158                                            DESENHISTA TÉCNICO</span></span>
+<span id="cb12-10"><a href="#cb12-10" tabindex="-1"></a><span class="co">#&gt; 25     211                                     PROCURADOR E ASSEMELHADOS</span></span>
+<span id="cb12-11"><a href="#cb12-11" tabindex="-1"></a><span class="co">#&gt;                         rotulo_apos_2002</span></span>
+<span id="cb12-12"><a href="#cb12-12" tabindex="-1"></a><span class="co">#&gt; 5                      ESCULTOR E PINTOR</span></span>
+<span id="cb12-13"><a href="#cb12-13" tabindex="-1"></a><span class="co">#&gt; 6               TAQUÍGRAFO E ESTENÓGRAFO</span></span>
+<span id="cb12-14"><a href="#cb12-14" tabindex="-1"></a><span class="co">#&gt; 7        ARTISTA PLÁSTICO E ASSEMELHADOS</span></span>
+<span id="cb12-15"><a href="#cb12-15" tabindex="-1"></a><span class="co">#&gt; 8  EMBALADOR, EMPACOTADOR E ASSEMELHADOS</span></span>
+<span id="cb12-16"><a href="#cb12-16" tabindex="-1"></a><span class="co">#&gt; 9                             GOVERNANTA</span></span>
+<span id="cb12-17"><a href="#cb12-17" tabindex="-1"></a><span class="co">#&gt; 13                TÉCNICO EM INFORMÁTICA</span></span>
+<span id="cb12-18"><a href="#cb12-18" tabindex="-1"></a><span class="co">#&gt; 25  ESTIVADOR, CARREGADOR E ASSEMELHADOS</span></span></code></pre></div>
+<p>Traduzir uma candidatura de 1998 pelo dicionário atual classifica um
+ocupante de cargo de direção como artista plástico. Passe o ano e o
+problema se resolve:</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="fu">tse_para_classe</span>(<span class="fu">c</span>(<span class="st">&quot;215&quot;</span>, <span class="st">&quot;215&quot;</span>), <span class="at">ano =</span> <span class="fu">c</span>(<span class="dv">2000</span>, <span class="dv">2020</span>))</span>
+<span id="cb13-2"><a href="#cb13-2" tabindex="-1"></a><span class="co">#&gt; Warning: 1 candidatura(s) usam código(s) que o TSE REUTILIZOU depois (215): naquele ano designavam outra ocupação, e voltam NA.</span></span>
+<span id="cb13-3"><a href="#cb13-3" tabindex="-1"></a><span class="co">#&gt; Veja ?tse_vigencia.</span></span>
+<span id="cb13-4"><a href="#cb13-4" tabindex="-1"></a><span class="co">#&gt; [1] NA                                &quot;Profissionais de nível superior&quot;</span></span></code></pre></div>
+<p><strong>E o problema maior nem é esse.</strong> Mais frequente que a
+reutilização é a troca de inventário — códigos que sumiram e códigos que
+nasceram:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" tabindex="-1"></a><span class="fu">table</span>(<span class="fu">tse_diff_cadastro</span>(<span class="dv">2000</span>, <span class="dv">2002</span>)<span class="sc">$</span>mudanca)</span>
+<span id="cb14-2"><a href="#cb14-2" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb14-3"><a href="#cb14-3" tabindex="-1"></a><span class="co">#&gt;  criado extinto  rotulo </span></span>
+<span id="cb14-4"><a href="#cb14-4" tabindex="-1"></a><span class="co">#&gt;      69      21      36</span></span></code></pre></div>
+<p>Comparando os períodos inteiros, o cadastro perde e ganha
+códigos:</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a>r <span class="ot">&lt;-</span> tse_ocupacao_rotulos</span>
+<span id="cb15-2"><a href="#cb15-2" tabindex="-1"></a>extintos <span class="ot">&lt;-</span> <span class="fu">setdiff</span>(r<span class="sc">$</span>cod_tse[r<span class="sc">$</span>ate <span class="sc">&lt;=</span> <span class="dv">2000</span>], r<span class="sc">$</span>cod_tse[r<span class="sc">$</span>ate <span class="sc">&gt;</span> <span class="dv">2000</span>])</span>
+<span id="cb15-3"><a href="#cb15-3" tabindex="-1"></a>criados  <span class="ot">&lt;-</span> <span class="fu">setdiff</span>(r<span class="sc">$</span>cod_tse[r<span class="sc">$</span>de  <span class="sc">&gt;=</span> <span class="dv">2002</span>], r<span class="sc">$</span>cod_tse[r<span class="sc">$</span>de  <span class="sc">&lt;</span>  <span class="dv">2002</span>])</span>
+<span id="cb15-4"><a href="#cb15-4" tabindex="-1"></a><span class="fu">c</span>(<span class="at">extintos =</span> <span class="fu">length</span>(extintos), <span class="at">criados =</span> <span class="fu">length</span>(criados))</span>
+<span id="cb15-5"><a href="#cb15-5" tabindex="-1"></a><span class="co">#&gt; extintos  criados </span></span>
+<span id="cb15-6"><a href="#cb15-6" tabindex="-1"></a><span class="co">#&gt;       13      122</span></span></code></pre></div>
+<p>São 12,4% das candidaturas de 1998–2000 nos treze extintos, e 33,1%
+das de 2002 em diante nos cento e vinte e dois criados — entre eles
+<code>COMERCIANTE</code> e <code>EMPRESÁRIO</code>. Estas duas
+participações são o único par de números desta vinheta que o pacote não
+recalcula sozinho: <code>tse_ocupacao_rotulos</code> traz <code>n</code>
+por vigência, não por ano, e por isso elas saem da microbase, em
+<code>data-raw/11_confere_retrospectivo.R</code>. Uma série que
+atravesse 2002 mede “Proprietários e empregadores” com dois vocabulários
+incomensuráveis.</p>
+<p>Não há um ano seguro para começar depois disso. A troca de inventário
+não se esgota em 2002:</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" tabindex="-1"></a><span class="cf">for</span> (p <span class="cf">in</span> <span class="fu">list</span>(<span class="fu">c</span>(<span class="dv">2002</span>, <span class="dv">2004</span>), <span class="fu">c</span>(<span class="dv">2004</span>, <span class="dv">2006</span>), <span class="fu">c</span>(<span class="dv">2006</span>, <span class="dv">2008</span>))) {</span>
+<span id="cb16-2"><a href="#cb16-2" tabindex="-1"></a>  <span class="fu">cat</span>(p[<span class="dv">1</span>], <span class="st">&quot;-&gt;&quot;</span>, p[<span class="dv">2</span>], <span class="st">&quot;: &quot;</span>)</span>
+<span id="cb16-3"><a href="#cb16-3" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">table</span>(<span class="fu">tse_diff_cadastro</span>(p[<span class="dv">1</span>], p[<span class="dv">2</span>])<span class="sc">$</span>mudanca))</span>
+<span id="cb16-4"><a href="#cb16-4" tabindex="-1"></a>}</span>
+<span id="cb16-5"><a href="#cb16-5" tabindex="-1"></a><span class="co">#&gt; 2002 -&gt; 2004 : </span></span>
+<span id="cb16-6"><a href="#cb16-6" tabindex="-1"></a><span class="co">#&gt; criado </span></span>
+<span id="cb16-7"><a href="#cb16-7" tabindex="-1"></a><span class="co">#&gt;     20 </span></span>
+<span id="cb16-8"><a href="#cb16-8" tabindex="-1"></a><span class="co">#&gt; 2004 -&gt; 2006 : </span></span>
+<span id="cb16-9"><a href="#cb16-9" tabindex="-1"></a><span class="co">#&gt;  criado extinto  rotulo </span></span>
+<span id="cb16-10"><a href="#cb16-10" tabindex="-1"></a><span class="co">#&gt;      34       3      13 </span></span>
+<span id="cb16-11"><a href="#cb16-11" tabindex="-1"></a><span class="co">#&gt; 2006 -&gt; 2008 : </span></span>
+<span id="cb16-12"><a href="#cb16-12" tabindex="-1"></a><span class="co">#&gt; criado </span></span>
+<span id="cb16-13"><a href="#cb16-13" tabindex="-1"></a><span class="co">#&gt;      6</span></span></code></pre></div>
+<p>De 2002 para 2004 nada se extingue, mas de 2004 para 2006 três
+códigos somem e treze trocam de rótulo — e dois dos sete reutilizados só
+reaparecem em 2006 e 2008. O caminho honesto não é escolher um ano de
+início: é <strong>declarar a descontinuidade</strong> e passar o
+<code>ano</code>, que é o que resolve os reutilizados código a
+código.</p>
+</div>
+<div id="não-misture-isei-88-e-isei-08-na-mesma-série" class="section level2">
+<h2>7. Não misture ISEI-88 e ISEI-08 na mesma série</h2>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a><span class="fu">data.frame</span>(</span>
+<span id="cb17-2"><a href="#cb17-2" tabindex="-1"></a>  <span class="at">cod    =</span> <span class="fu">c</span>(<span class="st">&quot;111&quot;</span>, <span class="st">&quot;113&quot;</span>, <span class="st">&quot;411&quot;</span>),</span>
+<span id="cb17-3"><a href="#cb17-3" tabindex="-1"></a>  <span class="at">rotulo =</span> <span class="fu">tse_para_rotulo</span>(<span class="fu">c</span>(<span class="st">&quot;111&quot;</span>, <span class="st">&quot;113&quot;</span>, <span class="st">&quot;411&quot;</span>)),</span>
+<span id="cb17-4"><a href="#cb17-4" tabindex="-1"></a>  <span class="at">isei88 =</span> <span class="fu">tse_para_isei</span>(<span class="fu">c</span>(<span class="st">&quot;111&quot;</span>, <span class="st">&quot;113&quot;</span>, <span class="st">&quot;411&quot;</span>)),</span>
+<span id="cb17-5"><a href="#cb17-5" tabindex="-1"></a>  <span class="at">isei08 =</span> <span class="fu">round</span>(<span class="fu">tse_para_isei08</span>(<span class="fu">c</span>(<span class="st">&quot;111&quot;</span>, <span class="st">&quot;113&quot;</span>, <span class="st">&quot;411&quot;</span>)), <span class="dv">1</span>))</span>
+<span id="cb17-6"><a href="#cb17-6" tabindex="-1"></a><span class="co">#&gt;   cod                                      rotulo isei88 isei08</span></span>
+<span id="cb17-7"><a href="#cb17-7" tabindex="-1"></a><span class="co">#&gt; 1 111                                      MÉDICO     88   88.7</span></span>
+<span id="cb17-8"><a href="#cb17-8" tabindex="-1"></a><span class="co">#&gt; 2 113                                  ENFERMEIRO     43   68.7</span></span>
+<span id="cb17-9"><a href="#cb17-9" tabindex="-1"></a><span class="co">#&gt; 3 411 VENDEDOR DE COMÉRCIO VAREJISTA E ATACADISTA     43   29.7</span></span></code></pre></div>
+<p>O médico fica onde estava; o enfermeiro sobe 26 pontos — e não por
+ter mudado de lugar na classificação. A ISCO-88 já o punha entre os
+profissionais de nível superior (<code>2230</code> na ISCO-88), e já o
+separava da enfermagem técnica (<code>3231</code> na ISCO-88). O que ela
+fazia era pontuá-lo em 43, <strong>abaixo dos escriturários</strong>,
+que recebem 45. O que mudou foi a escala: o ISEI-08, reestimado por
+Ganzeboom sobre o ISSP de 2002-2007, cobre homens e mulheres e o põe em
+68,7. O vendedor cai 13 pelo mesmo mecanismo, em sentido contrário, com
+a reorganização do subgrupo <code>52</code> por cima. Não é erro de
+nenhuma das duas réguas: são recortes diferentes. Numa série que troque
+de âncora no meio, os dois deslocamentos aparecem como mobilidade que
+não houve.</p>
+<p><strong>Fique na ISCO-88</strong> para comparar candidaturas entre si
+— é onde o pacote está ancorado. Use a ISCO-08 para juntar o dado
+eleitoral a fontes que já a usam, e para análise de gênero, onde o
+ISEI-08 reavalia para cima as ocupações de cuidado que o escalonamento
+de 1992, estimado só sobre homens, subestimava (veja
+<code>vignette(&quot;validacao&quot;)</code>).</p>
+<p>Desde a versão 0.5.0 há uma terceira régua,
+<code>tse_para_isei_br()</code>, estimada na PNAD Contínua em vez de
+importada. O aviso vale para ela igualmente, e com uma razão a mais: as
+três não foram estimadas na mesma população nem no mesmo ano. A
+brasileira é de um ano só, 2025, e serve para perguntar como o mercado
+de trabalho <strong>brasileiro</strong> ordena as ocupações. Para
+comparação internacional, ou para qualquer série longa, ela não
+serve.</p>
+</div>
+<div id="verifique-antes-não-depois" class="section level2">
+<h2>8. Verifique antes, não depois</h2>
+<p>As duas travas são <strong>opt-in</strong> e ficam fora do caminho
+feliz. Chame-as:</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" tabindex="-1"></a><span class="fu">checa_cobertura</span>(<span class="fu">c</span>(<span class="dv">111</span>, <span class="dv">169</span>, <span class="dv">257</span>))</span>
+<span id="cb18-2"><a href="#cb18-2" tabindex="-1"></a><span class="co">#&gt; cobertura ok: 3 códigos observados, todos no dicionário.</span></span>
+<span id="cb18-3"><a href="#cb18-3" tabindex="-1"></a><span class="fu">invisible</span>(<span class="fu">checa_periodo</span>(<span class="fu">c</span>(<span class="st">&quot;215&quot;</span>, <span class="st">&quot;111&quot;</span>), <span class="fu">c</span>(<span class="dv">2000</span>, <span class="dv">2020</span>)))</span>
+<span id="cb18-4"><a href="#cb18-4" tabindex="-1"></a><span class="co">#&gt; Warning: 1 candidatura(s) até 2000 usam código(s) que o TSE reutilizou em 2002</span></span>
+<span id="cb18-5"><a href="#cb18-5" tabindex="-1"></a><span class="co">#&gt; (215). Elas estão classificadas pelo cadastro NOVO e portanto erradas; veja</span></span>
+<span id="cb18-6"><a href="#cb18-6" tabindex="-1"></a><span class="co">#&gt; ?checa_periodo.</span></span></code></pre></div>
+<p><code>checa_cobertura()</code> falha <strong>com erro</strong> se
+aparecer código fora do dicionário. O modo silencioso de errar uma
+medida de classe não é classificar mal um caso: é um código novo cair
+num rótulo residual sem ninguém perceber.</p>
+</div>
+<div id="nem-todo-escore-tem-a-mesma-procedência" class="section level2">
+<h2>9. Nem todo escore tem a mesma procedência</h2>
+<p>Um ISEI de 68 sai impresso do mesmo jeito venha de onde vier. Mas
+“advogado” pressupõe inscrição na OAB, e “empresário” não pressupõe
+registro nenhum:</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="fu">crosswalk_tse</span>(<span class="fu">c</span>(<span class="st">&quot;131&quot;</span>, <span class="st">&quot;257&quot;</span>))[, <span class="fu">c</span>(<span class="st">&quot;cod_tse&quot;</span>, <span class="st">&quot;rotulo&quot;</span>, <span class="st">&quot;isei88&quot;</span>, <span class="st">&quot;componente_alta&quot;</span>)]</span>
+<span id="cb19-2"><a href="#cb19-2" tabindex="-1"></a><span class="co">#&gt;   cod_tse     rotulo isei88   componente_alta</span></span>
+<span id="cb19-3"><a href="#cb19-3" tabindex="-1"></a><span class="co">#&gt; 1     131   ADVOGADO     85  Alta credenciada</span></span>
+<span id="cb19-4"><a href="#cb19-4" tabindex="-1"></a><span class="co">#&gt; 2     257 EMPRESARIO     68 Alta proprietária</span></span></code></pre></div>
+<p>Os dois entram na classe alta, e os dois escores saem com a mesma
+tipografia — mas não com a mesma procedência. Para chegar a 85, é
+preciso estar inscrito na OAB; para chegar a 68, basta escrever
+“empresário” no formulário.</p>
+<p>E o que esse 68 cobre:</p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" tabindex="-1"></a>p <span class="ot">&lt;-</span> tse_autorrotulo_patrimonio</span>
+<span id="cb20-2"><a href="#cb20-2" tabindex="-1"></a>p[p<span class="sc">$</span>cod_tse <span class="sc">==</span> <span class="st">&quot;257&quot;</span>, <span class="fu">c</span>(<span class="st">&quot;cargo&quot;</span>, <span class="st">&quot;n&quot;</span>, <span class="st">&quot;p10&quot;</span>, <span class="st">&quot;mediana&quot;</span>, <span class="st">&quot;p90&quot;</span>)]</span>
+<span id="cb20-3"><a href="#cb20-3" tabindex="-1"></a><span class="co">#&gt;                 cargo      n    p10 mediana      p90</span></span>
+<span id="cb20-4"><a href="#cb20-4" tabindex="-1"></a><span class="co">#&gt; 25           VEREADOR  80829  16285  185000   996021</span></span>
+<span id="cb20-5"><a href="#cb20-5" tabindex="-1"></a><span class="co">#&gt; 26           PREFEITO  10691 129521  812544  5089263</span></span>
+<span id="cb20-6"><a href="#cb20-6" tabindex="-1"></a><span class="co">#&gt; 27  DEPUTADO ESTADUAL   5275  31723  410824  3300418</span></span>
+<span id="cb20-7"><a href="#cb20-7" tabindex="-1"></a><span class="co">#&gt; 28 DEPUTADO DISTRITAL    289  34773  420496  3867513</span></span>
+<span id="cb20-8"><a href="#cb20-8" tabindex="-1"></a><span class="co">#&gt; 29   DEPUTADO FEDERAL   2772  39985  646282  5935381</span></span>
+<span id="cb20-9"><a href="#cb20-9" tabindex="-1"></a><span class="co">#&gt; 30            SENADOR     95 352110 4678498 75937286</span></span>
+<span id="cb20-10"><a href="#cb20-10" tabindex="-1"></a><span class="co">#&gt; 31         GOVERNADOR     66 225763 3548117 74426844</span></span>
+<span id="cb20-11"><a href="#cb20-11" tabindex="-1"></a><span class="co">#&gt; 32              TODOS 100017  19804  229468  1496826</span></span></code></pre></div>
+<p>Entre os que se declaram empresário, o patrimônio mediano vai de R$
+185 mil (candidatos a vereador) a R$ 4,7 milhões (candidatos a senador),
+e dentro do código os extremos distam dezenas de vezes:</p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a>todos <span class="ot">&lt;-</span> p[p<span class="sc">$</span>cod_tse <span class="sc">==</span> <span class="st">&quot;257&quot;</span> <span class="sc">&amp;</span> p<span class="sc">$</span>cargo <span class="sc">==</span> <span class="st">&quot;TODOS&quot;</span>, ]</span>
+<span id="cb21-2"><a href="#cb21-2" tabindex="-1"></a><span class="fu">round</span>(todos<span class="sc">$</span>p90 <span class="sc">/</span> todos<span class="sc">$</span>p10, <span class="dv">1</span>)</span>
+<span id="cb21-3"><a href="#cb21-3" tabindex="-1"></a><span class="co">#&gt; [1] 75.6</span></span></code></pre></div>
+<p>Não é erro de medida: é uma <strong>mistura</strong> de duas
+populações — o microempreendedor e o capitalista — sob um rótulo só.
+Nenhum escore único está certo para as duas, e por isso trocar o 68 por
+outro número não resolveria.</p>
+<p>Compare com o 131, que é ancorado na OAB. O gradiente por cargo
+existe nos dois — quem disputa posto mais alto é mais rico —, mas a
+distância entre os extremos é bem menor onde o rótulo pressupõe registro
+externo:</p>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" tabindex="-1"></a>a <span class="ot">&lt;-</span> p[p<span class="sc">$</span>cod_tse <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">&quot;131&quot;</span>, <span class="st">&quot;257&quot;</span>) <span class="sc">&amp;</span> p<span class="sc">$</span>cargo <span class="sc">==</span> <span class="st">&quot;TODOS&quot;</span>, ]</span>
+<span id="cb22-2"><a href="#cb22-2" tabindex="-1"></a><span class="fu">data.frame</span>(a[<span class="st">&quot;rotulo&quot;</span>], <span class="at">razao_p90_p10 =</span> <span class="fu">round</span>(a<span class="sc">$</span>p90 <span class="sc">/</span> a<span class="sc">$</span>p10, <span class="dv">1</span>))</span>
+<span id="cb22-3"><a href="#cb22-3" tabindex="-1"></a><span class="co">#&gt;        rotulo razao_p90_p10</span></span>
+<span id="cb22-4"><a href="#cb22-4" tabindex="-1"></a><span class="co">#&gt; 8    ADVOGADO          47.8</span></span>
+<span id="cb22-5"><a href="#cb22-5" tabindex="-1"></a><span class="co">#&gt; 32 EMPRESARIO          75.6</span></span></code></pre></div>
+<p>Isso não invalida o código; torna-o menos confiável que os ancorados,
+de um jeito que a tabela não mostra. A saída é sensibilidade, não
+conserto:</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">cod =</span> <span class="fu">c</span>(<span class="st">&quot;131&quot;</span>, <span class="st">&quot;257&quot;</span>, <span class="st">&quot;111&quot;</span>, <span class="st">&quot;265&quot;</span>))</span>
+<span id="cb23-2"><a href="#cb23-2" tabindex="-1"></a>d<span class="sc">$</span>isei <span class="ot">&lt;-</span> <span class="fu">tse_para_isei</span>(d<span class="sc">$</span>cod)</span>
+<span id="cb23-3"><a href="#cb23-3" tabindex="-1"></a>d<span class="sc">$</span>isei_ancorado <span class="ot">&lt;-</span> <span class="fu">ifelse</span>(d<span class="sc">$</span>cod <span class="sc">%in%</span> tse_codigos_autorrotulo, <span class="cn">NA</span>, d<span class="sc">$</span>isei)</span>
+<span id="cb23-4"><a href="#cb23-4" tabindex="-1"></a>d</span>
+<span id="cb23-5"><a href="#cb23-5" tabindex="-1"></a><span class="co">#&gt;   cod isei isei_ancorado</span></span>
+<span id="cb23-6"><a href="#cb23-6" tabindex="-1"></a><span class="co">#&gt; 1 131   85            85</span></span>
+<span id="cb23-7"><a href="#cb23-7" tabindex="-1"></a><span class="co">#&gt; 2 257   68            NA</span></span>
+<span id="cb23-8"><a href="#cb23-8" tabindex="-1"></a><span class="co">#&gt; 3 111   88            88</span></span>
+<span id="cb23-9"><a href="#cb23-9" tabindex="-1"></a><span class="co">#&gt; 4 265   66            66</span></span></code></pre></div>
+<p>São 13,3% das candidaturas. Rode com as duas colunas e relate as
+duas: se a sua conclusão só aparece na primeira, ela depende de
+autodeclaração sem âncora.</p>
+</div>
+<div id="resumo" class="section level2">
+<h2>Resumo</h2>
+<ol style="list-style-type: decimal">
+<li>Escolha a régua pela pergunta, e diga qual escolheu.</li>
+<li><code>NA</code> é resposta, não ausência de resposta — e a ausência
+é generificada.</li>
+<li>Categoria residual não é estrato.</li>
+<li>EGP de onze classes a partir do TSE, não; de cinco, sim.</li>
+<li>Série que atravessa 2002 precisa de <code>ano</code>, ou de uma nota
+de rodapé.</li>
+<li>Uma âncora por série.</li>
+<li><code>checa_cobertura()</code> antes de analisar, sempre.</li>
+<li>Rótulo de propriedade não tem a confiabilidade de rótulo com
+registro — rode também sem <code>tse_codigos_autorrotulo</code>.</li>
+</ol>
+</div>
+
+
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

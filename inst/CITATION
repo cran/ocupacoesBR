@@ -1,0 +1,87 @@
+citHeader(
+  "Ao usar o ocupacoesBR, cite o pacote E a fonte das escalas.\n",
+  "As tabelas de ISEI, prestigio e EGP derivam das sintaxes publicadas do\n",
+  "International Stratification and Mobility File; Ganzeboom e Treiman as\n",
+  "mantem ha tres decadas e pedem citacao expressa. O pacote e o veiculo,\n",
+  "nao a fonte -- citar so o pacote apaga a autoria de quem construiu as\n",
+  "reguas. Veja tambem o arquivo LICENSE.note.\n\n",
+  "O ISEI-BR e a excecao: ele nao foi importado, o pacote o estimou sobre a\n",
+  "PNAD Continua de 2025. Quem o usa deve tres citacoes -- o pacote pela\n",
+  "estimacao, Ganzeboom, De Graaf e Treiman (1992) pelo metodo, e o IBGE\n",
+  "pelo dado. Veja ?isco08_isei_br.\n"
+)
+
+bibentry(
+  bibtype  = "Manual",
+  title    = "ocupacoesBR: Traduz a Ocupacao Declarada ao TSE em Classificacoes Padronizadas",
+  author   = person("Vitor", "Peixoto"),
+  year     = "2026",
+  # A versao vem do DESCRIPTION via `meta`, e nao digitada: ate 0.3.0 este
+  # campo dizia "0.1.0" fixo, de modo que citation("ocupacoesBR") informava
+  # uma versao que ja nao existia -- numa referencia bibliografica, que e
+  # justamente onde a procedencia precisa estar certa.
+  # Este arquivo e ASCII puro de proposito: nao declara Encoding, e o R
+  # recusa CITATION nao-ASCII sem declaracao.
+  note     = paste("R package version", meta$Version),
+  url      = "https://github.com/moraespeixoto/ocupacoesBR",
+  header   = "O pacote:"
+)
+
+bibentry(
+  bibtype  = "Misc",
+  title    = "Da ocupacao declarada a posicao social: as decisoes de medida do pacote ocupacoesBR",
+  author   = person("Vitor", "Peixoto"),
+  year     = "2026",
+  publisher = "SocArXiv",
+  doi      = "10.31235/osf.io/b29kg_v1",
+  note     = "Preprint",
+  header   = "O artigo de metodo, onde as decisoes sao justificadas:"
+)
+
+bibentry(
+  bibtype  = "Article",
+  title    = "Internationally comparable measures of occupational status for the 1988 International Standard Classification of Occupations",
+  author   = c(person(c("Harry", "B.", "G."), "Ganzeboom"),
+               person(c("Donald", "J."), "Treiman")),
+  journal  = "Social Science Research",
+  year     = "1996",
+  volume   = "25",
+  number   = "3",
+  pages    = "201--239",
+  doi      = "10.1006/ssre.1996.0010",
+  header   = "A fonte do ISEI, do prestigio e do EGP:"
+)
+
+bibentry(
+  bibtype  = "Article",
+  title    = "A standard international socio-economic index of occupational status",
+  author   = c(person(c("Harry", "B.", "G."), "Ganzeboom"),
+               person(c("Paul", "M."), "De Graaf"),
+               person(c("Donald", "J."), "Treiman")),
+  journal  = "Social Science Research",
+  year     = "1992",
+  volume   = "21",
+  number   = "1",
+  pages    = "1--56",
+  doi      = "10.1016/0049-089X(92)90017-B",
+  header   = "A construcao original do ISEI:"
+)
+
+bibentry(
+  bibtype      = "Manual",
+  title        = "Pesquisa Nacional por Amostra de Domicilios Continua trimestral: microdados",
+  author       = person("IBGE"),
+  organization = "Instituto Brasileiro de Geografia e Estatistica",
+  year         = "2025",
+  address      = "Rio de Janeiro",
+  url          = "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Trimestral/Microdados/",
+  header       = "O dado do ISEI-BR:"
+)
+
+citFooter(
+  "O prestigio ocupacional vem de Treiman, D. J. (1977), Occupational\n",
+  "Prestige in Comparative Perspective (Academic Press) -- uma media de\n",
+  "estudos de cerca de 60 paises levantados nos anos 1960 e 1970. Aplica-lo\n",
+  "a dado recente pressupoe que a ordem de prestigio e invariante no tempo,\n",
+  "que e a tese de Treiman e nao um fato dado. Veja ?tse_para_siops.\n"
+)

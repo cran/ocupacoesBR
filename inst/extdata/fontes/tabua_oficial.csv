@@ -1,0 +1,1388 @@
+cbo2002,titulo_cbo2002,cbo94,ciuo88
+1111-05,Senador,2-11.20,1110
+1111-10,Deputado federal,2-11.30,1110
+1111-15,Deputado estadual e distrital,2-11.35,1110
+1111-20,Vereador,2-11.40,1110
+1113-30,Juiz federal,2-13.20,1110
+1113-45,Juiz do trabalho,2-13.50,1110
+1313-05,Diretor de instituição educacional da área privada,1-39.15,2310
+1414-05,Comerciante atacadista,4-10.20,1314
+1414-10,Comerciante varejista,4-10.30,1314
+1414-15,Gerente de loja e supermercado,4-21.50,1314
+1415-05,Gerente de hotel,5-00.20,1315
+1415-10,Gerente de restaurante,5-00.30,1315
+1415-15,Gerente de bar,5-00.25,1315
+1415-20,Gerente de pensão,5-00.35,1315
+1416-05,Gerente de operações de transportes,2-49.20,1226
+1416-10,Gerente de operações de correios e telecomunicações,2-49.30,1226
+1417-05,Gerente de produtos bancários,2-43.55,1317
+1417-10,Gerente de agência bancária,2-43.25,1317
+1417-15,Gerente de câmbio e comércio exterior,2-43.47,1317
+1421-05,Gerente administrativo,2-41.20,2149
+1421-15,Gerente financeiro,2-43.20,2149
+1422-10,Gerente de departamento pessoal,2-41.30,1232
+1423-05,Gerente comercial,2-43.30,1233
+1423-10,Gerente de comunicação,2-41.40,1234
+1423-15,Gerente de marketing,2-43.70,1239
+1423-20,Gerente de vendas,2-43.50,1233
+1423-25,Relações públicas,1-59.55,2419
+1423-30,Analista de negócios,1-99.55,2419
+1423-35,Analista de pesquisa de mercado,1-99.45,2419
+1424-05,Gerente de compras,2-43.40,1233
+1426-05,"Gerente de pesquisa, desenvolvimento e inovação (pdi)",2-42.30,1236
+2030-05,Pesquisador em biologia ambiental,0-51.25,2211
+2030-10,Pesquisador em biologia animal,0-51.30,2211
+2030-15,Pesquisador em biologia de microorganismos e parasitas,0-51.40,2211
+2030-20,Pesquisador em biologia humana,0-51.50,2211
+2030-25,Pesquisador em biologia vegetal,0-51.20,2211
+2035-20,Pesquisador em história,1-92.60,2443
+2041-05,Perito criminal,3-13.40,3450
+2111-05,Atuário,0-82.50,2121
+2111-10,Especialista em pesquisa operacional,0-82.40,2121
+2111-15,Matemático,0-82.20,2121
+2112-05,Estatístico,0-81.10,2122
+2112-10,Estatístico (estatística aplicada),0-81.30,2122
+2123-05,Administrador de banco de dados,1-91.45,2131
+2124-05,Analista de desenvolvimento de sistemas,0-83.20,2131
+2124-10,Analista de redes e de comunicação de dados,0-83.45,2131
+2124-20,Analista de suporte computacional,0-83.30,2131
+2131-05,Físico,0-12.10,2111
+2131-10,Físico (acústica),0-12.50,2111
+2131-50,Físico (medicina),0-12.15,2111
+2131-55,Físico (nuclear e reatores),0-12.80,2111
+2131-60,Físico (óptica),0-12.40,2111
+2131-75,Físico (térmica),0-12.30,2111
+2132-05,Químico,0-11.10,2113
+2132-10,Químico industrial,0-11.05,2113
+2133-05,Astrônomo,0-19.40,2111
+2133-15,Meteorologista,0-19.30,2112
+2134-05,Geólogo,0-27.50,2114
+2134-15,Geofísico,0-19.20,2114
+2141-05,Arquiteto de edificações,0-21.75,2141
+2141-20,Arquiteto paisagista,0-21.85,2141
+2141-25,Arquiteto urbanista,0-21.80,2141
+2142-05,Engenheiro civil,0-21.10,2142
+2142-10,Engenheiro civil (aeroportos),0-21.35,2142
+2142-15,Engenheiro civil (edificações),0-21.15,2142
+2142-25,Engenheiro civil (ferrovias e metrovias),0-21.45,2142
+2142-40,Engenheiro civil (hidráulica),0-21.70,2142
+2142-45,Engenheiro civil (pontes e viadutos),0-21.50,2142
+2142-55,Engenheiro civil (rodovias),0-21.25,2142
+2142-65,Engenheiro civil (túneis),0-21.55,2142
+2143-05,Engenheiro eletricista,0-23.05,2143
+2143-10,Engenheiro eletrônico,0-23.10,2144
+2143-25,Engenheiro eletrônico de manutenção,0-23.35,2144
+2143-40,Engenheiro de telecomunicações,0-23.40,2144
+2144-05,Engenheiro mecânico,0-24.10,2145
+2144-10,Engenheiro mecânico automotivo,0-24.70,2145
+2144-15,Engenheiro mecânico (energia nuclear),0-24.85,2145
+2144-25,Engenheiro aeronáutico,0-24.60,2145
+2144-30,Engenheiro naval,0-24.50,2145
+2145-05,Engenheiro químico,0-25.10,2146
+2145-20,Engenheiro químico (papel e celulose),0-25.30,2146
+2146-10,Engenheiro metalurgista,0-26.20,2147
+2147-05,Engenheiro de minas,0-27.10,2147
+2148-05,Engenheiro agrimensor,0-29.35,2148
+2149-05,Engenheiro de produção,0-28.10,2149
+2149-10,Engenheiro de controle de qualidade,0-28.50,2149
+2149-15,Engenheiro de segurança do trabalho,0-28.40,2149
+2149-25,Engenheiro de tempos e movimentos,0-28.30,2149
+2152-10,Primeiro oficial de máquinas da marinha mercante,0-43.15,3141
+2152-20,Superintendente técnico no transporte aquaviário,0-43.30,3141
+2153-05,Piloto de aeronaves,0-41.20,3143
+2153-10,Piloto de ensaios em vôo,0-41.70,3143
+2153-15,Instrutor de vôo,0-41.60,3143
+2211-05,Biólogo,0-51.10,2211
+2221-10,Engenheiro agrônomo,0-20.20,2213
+2221-15,Engenheiro de pesca,0-20.60,2213
+2221-20,Engenheiro florestal,0-20.40,2213
+2232-08,Cirurgião dentista - clínico geral,0-63.10,2222
+2232-12,Cirurgião dentista - endodontista,0-63.40,2222
+2232-36,Cirurgião dentista - odontopediatra,0-63.55,2222
+2232-40,Cirurgião dentista - ortopedista e ortodontista,0-63.45,2222
+2232-44,Cirurgião dentista - patologista bucal,0-63.50,2222
+2232-48,Cirurgião dentista - periodontista,0-63.70,2222
+2232-56,Cirurgião dentista - protesista,0-63.60,2222
+2232-60,Cirurgião dentista - radiologista,0-63.65,2222
+2232-68,Cirurgião dentista - traumatologista bucomaxilofacial,0-63.35,2222
+2232-72,Cirurgião dentista de saúde coletiva,0-63.30,2222
+2233-05,Médico veterinário,0-65.10,2223
+2233-10,Zootecnista,0-65.40,2223
+2234-05,Farmacêutico,0-67.10,2224
+2235-05,Enfermeiro,0-71.10,2230
+2235-20,Enfermeiro de centro cirúrgico,0-71.50,2230
+2235-25,Enfermeiro de terapia intensiva,0-71.55,2230
+2235-30,Enfermeiro do trabalho,0-71.40,2230
+2235-45,Enfermeiro obstétrico,0-71.45,2230
+2235-50,Enfermeiro psiquiátrico,0-71.65,2230
+2235-55,Enfermeiro puericultor e pediátrico,0-71.60,2230
+2235-60,Enfermeiro sanitarista,0-71.30,2230
+2236-05,Fisioterapeuta geral,0-76.20,2229
+2237-05,Dietista,0-68.30,2229
+2237-10,Nutricionista,0-68.10,2229
+2238-10,Fonoaudiólogo geral,0-79.25,2229
+2239-05,Terapeuta ocupacional,0-76.30,2229
+2239-10,Ortoptista,0-75.25,2229
+2241-15,Preparador de atleta,1-81.45,3475
+2241-20,Preparador físico,1-81.25,3475
+2241-35,Treinador profissional de futebol,1-81.30,3475
+2251-06,Médico legista e perito médico,0-61.37,2221
+2251-09,Médico nefrologista,0-61.38,2221
+2251-12,Médico neurologista,0-61.42,2221
+2251-15,Médico angiologista,0-61.75,2221
+2251-20,Médico cardiologista,0-61.17,2221
+2251-24,Médico pediatra,0-61.55,2221
+2251-25,Médico clínico,0-61.05,2221
+2251-27,Médico pneumologista,0-61.57,2221
+2251-33,Médico psiquiatra,0-61.62,2221
+2251-35,Médico dermatologista,0-61.19,2221
+2251-39,Médico em medicina preventiva e social,0-61.40,2221
+2251-40,Médico do trabalho,0-61.22,2221
+2251-51,Médico anestesiologista,0-61.15,2221
+2251-55,Médico endocrinologista e metabologista,0-61.25,2221
+2251-60,Médico fisiatra,0-61.28,2221
+2251-95,Médico homeopata,0-61.48,2221
+2252-25,Médico cirurgião geral,0-61.10,2221
+2252-35,Médico cirurgião plástico,0-61.80,2221
+2252-50,Médico ginecologista e obstetra,0-61.32,2221
+2252-65,Médico oftalmologista,0-61.47,2221
+2252-70,Médico ortopedista e traumatologista,0-61.50,2221
+2252-75,Médico otorrinolaringologista,0-61.52,2221
+2252-80,Médico coloproctologista,0-61.60,2221
+2252-85,Médico urologista,0-61.70,2221
+2253-10,Médico em endoscopia,0-61.27,2221
+2253-20,Médico em radiologia e diagnóstico por imagem,0-61.65,2221
+2253-30,Médico radioterapeuta,0-61.67,2221
+2312-10,Professor de nível superior do ensino fundamental (primeira a quarta série),1-42.20,2332
+2313-05,Professor de ciências exatas e naturais do ensino fundamental,1-42.50,2331
+2313-25,Professor de história do ensino fundamental,1-42.60,2331
+2313-35,Professor de língua portuguesa do ensino fundamental,1-42.30,2331
+2313-40,Professor de matemática do ensino fundamental,1-42.40,2331
+2321-10,Professor de biologia no ensino médio,1-41.60,2320
+2321-15,Professor de disciplinas pedagógicas no ensino médio,1-41.65,2320
+2321-30,Professor de física no ensino médio,1-41.50,2320
+2321-35,Professor de geografia no ensino médio,1-41.25,2320
+2321-40,Professor de história no ensino médio,1-41.30,2320
+2321-45,Professor de língua e literatura brasileira no ensino médio,1-41.15,2320
+2321-50,Professor de língua estrangeira moderna no ensino médio,1-41.20,2320
+2321-55,Professor de matemática no ensino médio,1-41.45,2320
+2321-60,Professor de psicologia no ensino médio,1-41.40,2320
+2321-65,Professor de química no ensino médio,1-41.55,2320
+2331-10,Professor de desenho técnico do ensino profissional,1-44.30,2320
+2331-15,Professor de técnicas agrícolas,1-41.80,2320
+2331-20,Professor de técnicas comerciais e secretariais,1-41.75,2320
+2331-25,Professor de técnicas de enfermagem,1-41.85,2320
+2331-30,Professor de técnicas industriais,1-41.70,2320
+2331-35,Professor de tecnologia e cálculo técnico,1-44.20,2320
+2332-05,Instrutor de aprendizagem e treinamento agropecuário,1-44.60,2320
+2332-10,Instrutor de aprendizagem e treinamento industrial,1-44.40,2320
+2332-15,Instrutor de aprendizagem e treinamento comercial,1-44.50,2320
+2341-15,Professor de estatística (no ensino superior),1-34.10,2310
+2341-25,Professor de pesquisa operacional (no ensino superior),1-39.60,2310
+2342-05,Professor de física (ensino superior),1-32.10,2310
+2342-10,Professor de química (ensino superior),1-32.05,2310
+2342-15,Professor de astronomia (ensino superior),1-39.40,2310
+2343-05,Professor de arquitetura,1-39.50,2310
+2343-20,Professor de geologia,1-39.30,2310
+2344-05,Professor de ciências biológicas do ensino superior,1-37.20,2310
+2344-15,Professor de enfermagem do ensino superior,1-37.80,2310
+2344-20,Professor de farmácia e bioquímica,1-37.65,2310
+2344-25,Professor de fisioterapia,1-37.85,2310
+2345-05,Professor de ensino superior na área de didática,1-31.20,2310
+2345-10,Professor de ensino superior na área de orientação educacional,1-31.40,2310
+2345-15,Professor de ensino superior na área de pesquisa educacional,1-31.50,2310
+2345-20,Professor de ensino superior na área de prática de ensino,1-31.30,2310
+2346-16,Professor de língua inglesa,1-38.30,2310
+2346-24,Professor de língua portuguesa,1-38.20,2310
+2346-48,Professor de literatura francesa,1-38.40,2310
+2346-72,Professor de linguística e linguística aplicada,1-38.50,2310
+2346-76,Professor de filologia e crítica textual,1-39.65,2310
+2347-05,Professor de antropologia do ensino superior,1-36.45,2310
+2347-20,Professor de ciência política do ensino superior,1-36.60,2310
+2347-35,Professor de filosofia do ensino superior,1-36.50,2310
+2347-40,Professor de geografia do ensino superior,1-36.70,2310
+2347-45,Professor de história do ensino superior,1-36.55,2310
+2347-60,Professor de psicologia do ensino superior,1-36.80,2310
+2347-70,Professor de sociologia do ensino superior,1-36.65,2310
+2348-05,Professor de economia,1-35.10,2310
+2348-10,Professor de administração,1-35.60,2310
+2348-15,Professor de contabilidade,1-35.70,2310
+2392-05,Professor de alunos com deficiência auditiva e surdos,1-45.40,2340
+2392-15,Professor de alunos com deficiência mental,1-45.20,2340
+2392-25,Professor de alunos com deficiência visual,1-45.30,2340
+2394-05,Coordenador pedagógico,1-49.50,2351
+2394-10,Orientador educacional,1-49.40,2351
+2394-15,Pedagogo,1-49.45,2351
+2394-20,Professor de técnicas e recursos audiovisuais,1-49.60,2351
+2394-30,Supervisor de ensino,1-49.30,2351
+2410-05,Advogado,1-21.10,2421
+2410-15,Advogado (direito civil),1-21.20,2421
+2410-25,Advogado (direito penal),1-21.50,2421
+2410-35,Advogado (direito do trabalho),1-21.40,2421
+2410-40,Consultor jurídico,1-29.50,2421
+2412-10,Procurador autárquico,1-29.30,2429
+2412-15,Procurador da fazenda nacional,1-29.20,2429
+2413-35,Tabelião de notas,3-14.20,2429
+2423-05,Delegado de polícia,3-13.20,2429
+2511-05,Antropólogo,1-92.40,2442
+2511-10,Arqueólogo,1-92.45,2442
+2511-15,Cientista político,1-92.70,2442
+2511-20,Sociólogo,1-92.20,2442
+2512-05,Economista,0-91.10,2441
+2512-15,Economista financeiro,0-91.30,2441
+2512-25,Economista do setor público,0-91.20,2441
+2513-05,Geógrafo,1-92.50,2442
+2515-05,Psicólogo educacional,0-74.25,2445
+2515-10,Psicólogo clínico,0-74.35,2445
+2515-15,Psicólogo do esporte,0-74.55,2445
+2515-25,Psicólogo jurídico,0-74.50,2445
+2515-30,Psicólogo social,0-74.60,2445
+2515-35,Psicólogo do trânsito,0-74.45,2445
+2515-40,Psicólogo do trabalho,0-74.15,2445
+2516-05,Assistente social,0-73.10,2446
+2516-10,Economista doméstico,1-92.25,2446
+2521-05,Administrador,0-92.20,2419
+2522-05,Auditor (contadores e afins),0-99.10,2411
+2522-10,Contador,0-93.10,2411
+2523-10,Secretário bilíngue,3-21.15,3439
+2524-05,Analista de recursos humanos,1-97.35,2412
+2525-10,Analista de câmbio,0-99.40,2149
+2531-10,Redator de publicidade,1-52.70,2419
+2531-15,Publicitário,1-59.47,2419
+2531-40,Agenciador de propaganda,4-42.30,3415
+2611-25,Jornalista,1-52.10,2451
+2611-35,Repórter (exclusive rádio e televisão),1-52.40,2451
+2612-05,Bibliotecário,1-91.20,2432
+2612-10,Documentalista,1-91.25,2432
+2613-05,Arquivista,1-91.30,2431
+2613-10,Museólogo,1-91.40,2431
+2614-05,Filólogo,1-95.20,2444
+2614-10,Intérprete,1-95.40,2444
+2614-20,Tradutor,1-95.30,2444
+2615-05,Autor-roteirista,1-52.50,2451
+2615-10,Crítico,1-51.30,2451
+2615-15,Escritor de ficção,1-51.20,2451
+2615-30,Redator de textos técnicos,1-52.80,2451
+2616-10,Editor de livro,1-59.45,2451
+2617-10,Comentarista de mídias audiovisuais,1-53.30,3472
+2617-15,Locutor de mídias audiovisuais,1-53.10,2451
+2618-05,Fotógrafo,1-63.10,3131
+2618-10,Fotógrafo publicitário,1-63.30,3131
+2618-15,Fotógrafo retratista,1-63.20,3131
+2618-20,Repórter fotográfico,1-63.40,3131
+2621-05,Produtor cultural,1-74.50,2455
+2621-10,Produtor cinematográfico,1-74.30,2455
+2621-15,Produtor de rádio,1-74.40,2455
+2621-20,Produtor de teatro,1-74.20,2455
+2622-05,Diretor de cinema,1-73.45,2455
+2622-20,Diretor teatral,1-73.30,2455
+2624-10,Desenhista industrial gráfico (designer gráfico),0-22.70,2452
+2625-05,Ator,1-73.20,2455
+2626-05,Compositor,1-71.20,2453
+2626-10,Músico arranjador,1-71.30,2453
+2626-15,Músico regente,1-71.35,2453
+2627-05,Músico intérprete cantor,1-71.45,2453
+2628-10,Bailarino (exceto danças populares),1-72.30,2454
+2628-15,Coreógrafo,1-72.20,2454
+2631-05,Ministro de culto religioso,1-96.20,2460
+2631-10,Missionário,1-96.30,2460
+2631-15,Teólogo,1-96.40,2460
+3003-05,Técnico em eletromecânica,0-39.88,3114
+3011-05,Técnico de laboratório industrial,0-36.40,3116
+3011-10,Técnico de laboratório de análises físico-químicas (materiais de construção),0-36.30,3116
+3011-15,Técnico químico de petróleo,0-36.15,3116
+3111-05,Técnico químico,0-36.05,3116
+3111-10,Técnico de celulose e papel,0-39.70,3116
+3112-05,Técnico em petroquímica,0-36.20,3116
+3113-05,"Técnico em materiais, produtos cerâmicos e vidros",0-39.60,3116
+3115-10,Técnico de meteorologia,0-39.50,3111
+3115-15,"Técnico de utilidade (produção e distribuição de vapor, gases, óleos, combustíveis, energia)",0-39.65,3116
+3116-05,Técnico têxtil,0-37.10,3116
+3116-10,Técnico têxtil (tratamentos químicos),0-37.40,3116
+3116-15,Técnico têxtil de fiação,0-37.20,3116
+3116-20,Técnico têxtil de malharia,0-37.50,3116
+3116-25,Técnico têxtil de tecelagem,0-37.30,3116
+3117-10,Colorista têxtil,7-56.25,8264
+3117-15,Preparador de tintas,9-22.15,8264
+3117-25,Tingidor de couros,7-61.55,8264
+3121-05,Técnico de obras civis,0-33.15,3112
+3122-05,Técnico de estradas,0-33.60,3112
+3122-10,Técnico de saneamento,0-33.70,3112
+3123-05,Técnico em agrimensura,0-33.30,3112
+3123-15,Técnico em hidrografia,0-33.50,2148
+3123-20,Topógrafo,0-33.80,2148
+3131-05,Eletrotécnico,0-34.05,3113
+3131-20,Técnico de manutenção elétrica,0-34.35,3113
+3131-25,Técnico de manutenção elétrica de máquina,0-34.36,3113
+3132-05,Técnico de manutenção eletrônica,0-34.40,3114
+3132-10,Técnico de manutenção eletrônica (circuitos de máquinas com comando numérico),0-34.42,3114
+3132-15,Técnico eletrônico,0-34.10,3114
+3133-15,Técnico de telecomunicações (telefonia),0-34.30,3114
+3133-20,Técnico de transmissão (telecomunicações),0-34.55,3114
+3134-15,"Encarregado de manutenção de instrumentos de controle, medição e similares",7-05.40,3114
+3141-10,Técnico mecânico,0-35.10,3115
+3141-15,"Técnico mecânico (calefação, ventilação, refrigeração e climatização)",0-35.50,3115
+3141-20,Técnico mecânico (máquinas),0-35.75,3115
+3141-25,Técnico mecânico (motores),0-35.70,3115
+3143-10,Técnico mecânico (aeronaves),0-35.30,3115
+3143-15,Técnico mecânico (embarcações),0-35.60,3115
+3147-05,Técnico de acabamento em siderurgia,0-32.18,3117
+3147-10,Técnico de aciaria em siderurgia,0-32.14,3117
+3147-15,Técnico de fundição em siderurgia,0-32.19,3117
+3147-20,Técnico de laminação em siderurgia,0-32.16,3117
+3147-25,Técnico de redução na siderurgia (primeira fusão),0-32.12,3117
+3147-30,Técnico de refratário em siderurgia,0-32.15,3117
+3161-10,Técnico em geologia,0-32.30,3111
+3163-05,Técnico de mineração,0-32.05,3117
+3163-10,Técnico de mineração (óleo e petróleo),0-32.20,3117
+3163-35,Desincrustador (poços de petróleo),7-14.60,3117
+3163-40,Cimentador (poços de petróleo),7-14.50,3117
+3171-15,Programador de máquinas - ferramenta com comando numérico,0-84.30,3121
+3172-05,Operador de computador,3-42.20,3122
+3180-05,Desenhista técnico,0-38.05,3118
+3180-10,Desenhista copista,0-38.87,3118
+3180-15,Desenhista detalhista,0-38.85,3118
+3181-05,Desenhista técnico (arquitetura),0-38.45,3118
+3181-10,Desenhista técnico (cartografia),0-38.55,3118
+3181-15,Desenhista técnico (construção civil),0-38.35,3118
+3181-20,Desenhista técnico (instalações hidrossanitárias),0-38.75,3118
+3182-05,Desenhista técnico mecânico,0-38.20,3118
+3182-10,Desenhista técnico aeronáutico,0-38.80,3118
+3182-15,Desenhista técnico naval,0-38.50,3118
+3183-05,Desenhista técnico (eletricidade e eletrônica),0-38.30,3118
+3183-10,"Desenhista técnico (calefação, ventilação e refrigeração)",0-38.25,3118
+3184-05,Desenhista técnico (artes gráficas),0-38.70,3118
+3184-10,Desenhista técnico (ilustrações artísticas),0-38.84,3118
+3184-15,Desenhista técnico (ilustrações técnicas),0-38.60,3118
+3184-20,Desenhista técnico (indústria têxtil),0-38.40,3118
+3184-25,Desenhista técnico (mobiliário),0-38.65,3118
+3184-30,"Desenhista técnico de embalagens, maquetes e leiautes",0-38.10,3118
+3188-10,Modelista de roupas,7-94.20,7435
+3188-15,Modelista de calçados,8-02.15,7435
+3211-05,Técnico agrícola,0-31.20,3212
+3211-10,Técnico agropecuário,0-31.10,3212
+3213-05,Técnico em piscicultura,0-31.60,3212
+3221-10,Podólogo,5-70.58,3229
+3221-30,Esteticista,5-70.40,5141
+3222-05,Técnico de enfermagem,0-72.10,3231
+3222-10,Técnico de enfermagem de terapia intensiva,0-72.20,3231
+3222-15,Técnico de enfermagem do trabalho,0-72.15,3231
+3222-20,Técnico de enfermagem psiquiátrica,0-72.30,3231
+3222-25,Instrumentador cirúrgico,5-72.50,3231
+3222-30,Auxiliar de enfermagem,5-72.10,3231
+3222-35,Auxiliar de enfermagem do trabalho,5-72.15,3231
+3223-05,Técnico em óptica e optometria,0-75.30,3224
+3224-05,Técnico em saúde bucal,0-79.35,3225
+3224-10,Protético dentário,8-42.50,3225
+3225-05,Técnico de ortopedia,0-79.50,3226
+3227-05,Técnico em acupuntura,0-79.15,3229
+3227-10,Técnico em quiropraxia,0-79.45,3229
+3227-15,Massoterapeuta,5-70.45,5141
+3231-05,Técnico em pecuária,0-31.30,3212
+3241-05,Técnico em métodos eletrográficos em encefalografia,0-77.40,3133
+3241-10,Técnico em métodos gráficos em cardiologia,0-77.30,3133
+3241-15,Técnico em radiologia e imagenologia,0-77.20,3133
+3242-05,Técnico em patologia clínica,0-31.40,3211
+3252-05,Técnico de alimentos,0-39.80,3119
+3281-05,Embalsamador,5-92.30,3211
+3281-10,Taxidermista,9-49.20,3211
+3411-05,Piloto comercial (exceto linhas aéreas),0-41.30,3143
+3411-15,Mecânico de voo,0-41.50,3143
+3412-20,Patrão de pesca de alto-mar,6-61.40,3142
+3412-25,Patrão de pesca na navegação interior,6-61.30,3142
+3422-10,Despachante aduaneiro,3-93.85,3422
+3423-05,Chefe de serviço de transporte rodoviário (passageiros e cargas),3-54.20,4133
+3423-10,Inspetor de serviços de transportes rodoviários (passageiros e cargas),3-54.30,4133
+3424-05,Agente de estação (ferrovia e metrô),3-51.20,5112
+3425-05,Controlador de tráfego aéreo,3-53.40,3144
+3425-15,Fiscal de aviação civil (fac),3-53.50,3144
+3511-05,Técnico de contabilidade,0-30.20,3433
+3511-10,Chefe de contabilidade (técnico),3-02.20,3431
+3513-05,Técnico em administração,0-30.50,3434
+3513-10,Técnico em administração de comércio exterior,0-30.60,3434
+3514-10,Escrivão judicial,3-14.30,3432
+3514-25,Oficial de justiça,3-14.40,3432
+3514-30,Auxiliar de serviços jurídicos,3-93.40,3432
+3515-05,Técnico em secretariado,3-21.05,4115
+3515-10,Taquígrafo,3-23.30,4111
+3516-05,Técnico de segurança do trabalho,0-39.45,3119
+3517-05,Analista de seguros (técnico),1-98.55,3412
+3517-15,Assistente comercial de seguros,0-39.75,3412
+3517-20,Assistente técnico de seguros,1-98.47,3412
+3517-25,Inspetor de risco,0-39.87,3412
+3517-30,Inspetor de sinistros,4-43.50,3412
+3517-40,Técnico de seguros,1-98.50,3412
+3518-05,Detetive profissional,5-82.40,3450
+3518-10,Investigador de polícia,5-82.30,3450
+3518-15,Papiloscopista policial,5-82.50,3450
+3522-05,Agente de defesa ambiental,3-19.30,3444
+3522-10,Agente de saúde pública,3-19.20,3222
+3523-05,Metrologista,3-19.50,3449
+3532-30,Tesoureiro de banco,3-31.57,4122
+3541-20,Agente de vendas de serviços,4-42.20,3415
+3541-25,Assistente de vendas,3-93.25,3415
+3541-45,Vendedor pracista,4-32.20,3415
+3542-05,Comprador,4-22.20,3416
+3542-10,Supervisor de compras,4-22.15,3416
+3543-05,Analista de exportação e importação,1-98.35,2419
+3544-05,Leiloeiro,4-43.20,3417
+3544-10,Avaliador de imóveis,4-43.40,3417
+3544-15,Avaliador de bens móveis,4-43.30,3417
+3545-05,Corretor de seguros,4-41.20,3412
+3546-05,Corretor de imóveis,4-41.30,3413
+3547-05,Representante comercial autônomo,4-32.30,3421
+3548-15,Agente de viagem,5-91.15,3414
+3711-05,Auxiliar de biblioteca,3-95.20,3431
+3713-05,Técnico em programação visual,0-39.84,3119
+3713-10,Técnico gráfico,0-39.83,3119
+3721-05,Diretor de fotografia,1-63.50,3131
+3721-15,Operador de câmera de televisão,1-63.70,3131
+3722-05,Operador de rede de teleprocessamento,3-23.50,3132
+3722-10,Radiotelegrafista,3-80.45,3132
+3741-05,Técnico em gravação de áudio,8-62.20,3131
+3742-10,Maquinista de cinema e vídeo,8-62.60,3131
+3743-05,Operador de projetor cinematográfico,8-62.40,3132
+3744-20,Montador de filmes,8-62.35,3132
+3751-10,Designer de vitrines,4-54.50,3471
+3762-05,Acrobata,1-75.40,3474
+3762-35,Mágico,1-75.30,3474
+3762-45,Palhaço,1-75.20,3474
+3762-55,Trapezista,1-75.50,3474
+3764-10,Modelo de modas,4-53.30,5210
+3771-10,Atleta profissional de futebol,1-82.20,3475
+3771-30,Jóquei,1-82.40,3475
+3771-35,Piloto de competição automobilística,1-82.30,3475
+3771-45,Pugilista,1-82.50,3475
+3772-05,Árbitro desportivo,1-89.20,3475
+3911-05,Cronoanalista,0-39.30,3119
+3911-10,Cronometrista,0-39.40,3119
+3911-15,Controlador de entrada e saída,3-44.15,3119
+3911-20,Planejista,3-44.20,3119
+3911-25,Técnico de planejamento de produção,0-39.35,3119
+3911-35,Técnico de matéria-prima e material,0-39.89,3119
+3912-05,Inspetor de qualidade,0-39.85,3152
+3912-15,Operador de inspeção de qualidade,3-99.17,3152
+3912-20,Técnico de painel de controle,0-39.37,3152
+3912-25,Escolhedor de papel,7-39.40,3152
+4102-05,Supervisor de almoxarifado,3-09.20,4131
+4102-10,Supervisor de câmbio,3-02.50,4122
+4102-15,Supervisor de contas a pagar,3-01.35,4122
+4102-20,Supervisor de controle patrimonial,3-09.30,4131
+4102-25,Supervisor de crédito e cobrança,3-02.40,4122
+4102-30,Supervisor de orçamento,3-02.30,4122
+4102-35,Supervisor de tesouraria,3-02.60,4122
+4110-05,Auxiliar de escritório,3-93.10,4121
+4110-10,Assistente administrativo,3-11.25,4121
+4110-30,Auxiliar de pessoal,3-93.30,4121
+4110-35,Auxiliar de estatística,3-99.20,4122
+4110-40,Auxiliar de seguros,3-39.70,4121
+4110-45,Auxiliar de serviços de importação e exportação,3-93.80,4121
+4121-05,Datilógrafo,3-23.20,4112
+4121-10,Digitador,3-42.40,4113
+4121-15,Operador de mensagens de telecomunicações (correios),3-23.40,4111
+4122-05,Contínuo,3-99.70,4190
+4131-05,Analista de folha de pagamento,3-39.30,4121
+4131-10,Auxiliar de contabilidade,3-31.15,4121
+4132-10,Caixa de banco,3-31.40,4122
+4132-15,Compensador de banco,3-31.65,4122
+4132-25,Escriturário de banco,3-93.15,4122
+4132-30,Operador de cobrança bancária,3-39.25,4122
+4141-05,Almoxarife,3-91.15,4131
+4141-10,Armazenista,3-91.40,4131
+4141-15,Balanceiro,3-91.50,4131
+4142-05,Apontador de mão de obra,3-93.60,4132
+4142-10,Apontador de produção,3-93.70,4132
+4151-05,Arquivista de documentos,3-95.30,4141
+4151-15,Codificador de dados,3-99.30,4143
+4151-20,Fitotecário,3-95.40,4141
+4151-25,Kardexista,3-99.60,4141
+4151-30,Operador de máquina copiadora (exceto operador de gráfica rápida),3-99.50,4141
+4152-05,Carteiro,3-70.30,4142
+4211-05,Atendente comercial (agência postal),3-32.20,4211
+4211-15,Bilheteiro no serviço de diversões,3-32.30,4211
+4211-20,Emissor de passagens,3-32.40,4211
+4211-25,Operador de caixa,3-31.45,4211
+4212-05,Recebedor de apostas (loteria),3-32.60,4213
+4212-10,Recebedor de apostas (turfe),3-32.50,4213
+4221-05,"Recepcionista, em geral",3-94.10,4222
+4221-10,Recepcionista de consultório médico ou dentário,3-94.30,4222
+4221-15,Recepcionista de seguro saúde,3-94.35,4222
+4221-20,Recepcionista de hotel,3-94.20,4222
+4221-25,Recepcionista de banco,3-94.15,4222
+4222-05,Telefonista,3-80.20,4223
+4223-15,Operador de telemarketing receptivo,3-80.25,9113
+4241-25,Escriturário em estatística,0-30.30,3434
+5101-10,Administrador de edifícios,5-51.15,9141
+5101-15,Supervisor de andar,5-40.10,5121
+5101-20,Chefe de portaria de hotel,5-40.53,9152
+5101-30,Chefe de bar,5-32.45,5123
+5101-35,Maître,5-32.20,5123
+5111-05,Comissário de vôo,5-41.20,5111
+5111-10,Comissário de trem,5-41.30,5111
+5112-05,Fiscal de transportes coletivos (exceto trem),3-60.35,5112
+5112-10,Despachante de transportes coletivos (exceto trem),3-60.25,5112
+5112-15,Cobrador de transportes coletivos (exceto trem),3-60.40,5112
+5112-20,"Bilheteiro (estações de metrô, ferroviárias e assemelhadas)",3-32.35,5112
+5121-05,Empregado doméstico nos serviços gerais,5-40.20,9131
+5131-05,Mordomo de residência,5-20.30,5121
+5131-15,Governanta de hotelaria,5-20.70,5121
+5132-05,Cozinheiro geral,5-31.10,5122
+5132-10,Cozinheiro do serviço doméstico,5-31.40,5122
+5132-20,Cozinheiro de hospital,5-31.45,5122
+5132-25,Cozinheiro de embarcações,5-31.50,5122
+5133-15,Camareiro de hotel,5-40.50,5123
+5133-20,Camareiro de embarcações,5-40.60,5123
+5133-25,Guarda-roupeiro de cinema,5-40.70,5123
+5134-05,Garçom,5-32.10,5123
+5134-10,Sommelier,5-32.40,5123
+5134-20,Barman,5-32.50,5123
+5134-25,Copeiro,5-32.60,5123
+5134-30,Copeiro de hospital,5-32.65,5123
+5134-35,Atendente de lanchonete,5-32.70,5123
+5141-05,Ascensorista,5-51.50,9141
+5141-10,Garagista,5-51.35,9141
+5141-15,Sacristão,5-51.40,9141
+5141-20,Zelador de edifício,5-51.20,9141
+5142-05,Coletor de lixo domiciliar,5-52.60,9161
+5142-15,Varredor de rua,5-52.50,9162
+5142-25,Trabalhador de serviços de limpeza e conservação de áreas públicas,5-52.15,9132
+5143-05,Limpador de vidros,5-52.30,9132
+5143-15,Limpador de fachadas,9-59.75,7143
+5143-20,Faxineiro,5-52.20,9132
+5143-25,Trabalhador da manutenção de edificações,9-59.20,7143
+5151-10,Atendente de enfermagem,5-72.20,5132
+5151-20,Visitador sanitário,5-72.30,5132
+5152-05,Auxiliar de banco de sangue,5-72.40,5132
+5152-15,Auxiliar de laboratório de análises clínicas,5-72.75,5132
+5161-05,Barbeiro,5-70.30,5141
+5161-10,Cabeleireiro,5-70.20,5141
+5161-20,Manicure/pedicure,5-70.50,5141
+5161-25,Maquiador,5-70.65,5141
+5161-30,Maquiador de caracterização,5-70.60,5141
+5162-05,Babá,5-40.35,5131
+5162-15,Mãe social,5-40.45,5131
+5163-05,"Lavadeiro, em geral",5-60.10,8264
+5163-10,Lavador de roupas à máquina,5-60.20,8264
+5163-15,Lavador de artefatos de tapeçaria,5-60.25,8264
+5163-20,"Limpador a seco, à máquina",5-60.30,8264
+5163-25,Passador de roupas em geral,5-60.60,8264
+5163-30,Tingidor de roupas,5-60.80,8264
+5164-10,"Limpador de roupas a seco, à mão",5-60.40,9133
+5164-15,"Passador de roupas, à mão",5-60.70,9133
+5165-05,Agente funerário,5-92.20,5143
+5166-10,Sepultador,9-91.30,9312
+5167-05,Astrólogo,1-99.60,5151
+5171-05,Bombeiro de aeródromo,5-81.40,5161
+5171-10,Bombeiro civil,5-81.10,5161
+5171-15,Salva-vidas,5-89.50,5169
+5172-05,Agente de polícia federal,5-82.20,5162
+5172-10,Policial rodoviário federal,5-84.30,5162
+5172-20,Agente de trânsito,5-84.20,5162
+5172-30,Policial penal,5-89.30,5163
+5173-05,Vigilante aeroportuário,5-83.40,5169
+5173-20,Vigilante florestal,6-59.30,5169
+5173-30,Vigilante patrimonial,5-83.20,5169
+5174-05,Porteiro (hotel),5-40.55,9152
+5174-10,Porteiro de edifícios,5-51.25,9152
+5174-15,Agente de portaria,5-99.55,9152
+5174-20,Vigia,5-83.30,9152
+5191-10,Motofretista,9-85.70,8321
+5199-05,Cartazeiro,5-99.45,9120
+5199-15,Engraxate,5-99.35,9120
+5199-25,Guardador de veículos,5-99.15,9152
+5199-35,Lavador de veículos,5-99.25,9142
+5199-40,Leiturista,3-99.35,9153
+5199-45,Recepcionista de casas de espetáculos,5-99.65,4222
+5211-05,Vendedor em comércio atacadista,4-51.20,5220
+5211-10,Vendedor de comércio varejista,4-51.30,5220
+5211-15,Promotor de vendas,4-21.40,5220
+5211-20,Demonstrador de mercadorias,4-53.20,5220
+5211-30,Atendente de farmácia - balconista,4-51.70,5220
+5211-35,Frentista,4-51.60,5220
+5231-15,Chaveiro,8-49.83,7233
+5241-05,Vendedor em domicílio,4-52.30,9113
+5242-05,Feirante,4-90.40,9111
+5242-10,Jornaleiro (em banca de jornal),4-52.40,9112
+5243-05,Vendedor ambulante,4-52.20,9112
+5243-10,Pipoqueiro ambulante,4-52.50,9111
+6110-05,"Produtor agropecuário, em geral",6-11.10,6130
+6120-05,Produtor agrícola polivalente,6-11.20,6114
+6122-15,Produtor de juta,6-32.40,6111
+6125-05,Produtor de árvores frutíferas,6-12.75,6112
+6130-05,Criador em pecuária polivalente,6-11.30,6121
+6130-10,Criador de animais domésticos,6-12.25,6121
+6131-15,Criador de bovinos (leite),6-12.50,6121
+6133-05,Avicultor,6-12.60,6122
+6201-05,Supervisor de exploração agrícola,6-01.20,6130
+6201-10,Supervisor de exploração agropecuária,6-01.10,6130
+6201-15,Supervisor de exploração pecuária,6-01.30,6130
+6210-05,Trabalhador agropecuário em geral,6-21.05,6130
+6220-10,Jardineiro,6-39.40,6113
+6220-20,Trabalhador volante da agricultura,6-39.50,6114
+6221-05,Trabalhador da cultura de arroz,6-31.30,6111
+6221-10,Trabalhador da cultura de cana-de-açúcar,6-31.50,6111
+6222-05,Trabalhador da cultura de algodão,6-32.20,6111
+6222-10,Trabalhador da cultura de sisal,6-32.30,6111
+6222-15,Trabalhador da cultura do rami,6-32.50,6111
+6225-05,Trabalhador no cultivo de árvores frutíferas,6-35.10,6114
+6226-05,Trabalhador da cultura de cacau,6-36.30,6112
+6226-10,Trabalhador da cultura de café,6-36.20,6112
+6226-15,Trabalhador da cultura de erva-mate,6-54.30,6112
+6226-20,Trabalhador da cultura de fumo,6-36.60,6112
+6226-25,Trabalhador da cultura de guaraná,6-54.40,6112
+6227-05,Trabalhador na cultura de amendoim,6-37.30,6112
+6227-15,Trabalhador na cultura de coco-da-baía,6-37.50,6112
+6227-20,Trabalhador na cultura de dendê,6-37.60,6112
+6227-25,Trabalhador na cultura de mamona,6-37.40,6112
+6227-30,Trabalhador na cultura de soja,6-37.20,6112
+6228-10,Trabalhador da cultura de plantas aromáticas e medicinais,6-38.20,6112
+6230-05,Adestrador de animais,6-49.60,6129
+6230-10,Inseminador,6-49.30,6129
+6230-15,Trabalhador de pecuária polivalente,6-21.30,6124
+6230-20,Tratador de animais,6-41.70,6129
+6231-05,Trabalhador da pecuária (asininos e muares),6-41.50,6129
+6231-15,Trabalhador da pecuária (bovinos leite),6-41.30,6121
+6231-25,Trabalhador da pecuária (equinos),6-41.40,6129
+6232-05,Trabalhador da caprinocultura,6-42.40,6121
+6232-10,Trabalhador da ovinocultura,6-42.30,6121
+6232-15,Trabalhador da suinocultura,6-42.20,6121
+6233-05,Trabalhador da avicultura de corte,6-43.20,6129
+6233-15,Operador de incubadora de ovos,6-72.30,6122
+6233-20,Trabalhador da cunicultura,6-43.30,6129
+6233-25,Sexador,6-49.50,6129
+6234-10,Trabalhador na apicultura,6-44.20,6123
+6234-20,Trabalhador na sericicultura,6-44.30,6123
+6310-10,Catador de mariscos,6-63.30,6153
+6311-05,Pescador artesanal de água doce,6-63.20,6152
+6312-05,Pescador industrial,6-62.20,6153
+6313-20,Criador de ostras,6-64.30,6151
+6313-25,Criador de peixes,6-64.20,6151
+6313-30,Criador de quelônios,6-64.40,6151
+6314-10,Gelador profissional,6-62.30,6153
+6320-15,Viveirista florestal,6-39.25,6141
+6321-10,Cubador de madeira,6-51.40,6141
+6321-25,"Trabalhador de extração florestal, em geral",6-51.10,6141
+6322-05,Seringueiro,6-52.20,6141
+6322-10,Trabalhador da exploração de espécies produtoras de gomas não elásticas,6-52.30,6141
+6322-15,Trabalhador da exploração de resinas,6-52.40,6141
+6323-10,Trabalhador da exploração de babaçu,6-53.20,6141
+6323-25,Trabalhador da exploração de carnaúba,6-53.30,6141
+6323-40,Trabalhador da exploração de malva (pãina),6-53.60,6141
+6323-55,Trabalhador da exploração de ouricuri,6-53.40,6141
+6323-65,Trabalhador da exploração de piaçava,6-53.50,6141
+6324-10,Trabalhador da exploração de castanha,6-54.20,6141
+6325-05,"Trabalhador da exploração de árvores e arbustos produtores de substâncias aromáticas, medicinais e tóxicas",6-55.30,6141
+6325-15,Trabalhador da exploração de madeiras tanantes,6-55.40,6141
+6326-05,Carvoeiro,6-59.20,6142
+6410-05,Operador de colheitadeira,6-71.40,8331
+6410-10,Operador de máquinas de beneficiamento de produtos agrícolas,6-71.30,8331
+6410-15,Tratorista agrícola,6-71.20,8331
+6420-15,Operador de trator florestal,6-73.20,8331
+7101-20,Supervisor de produção na mineração,7-02.20,7111
+7102-05,Mestre (construção civil),7-01.83,7129
+7102-10,Mestre de linhas (ferrovias),7-01.85,7129
+7102-15,Inspetor de terraplenagem,7-01.87,7129
+7102-20,Supervisor de usina de concreto,7-01.84,7129
+7102-25,Fiscal de pátio de usina de concreto,7-01.86,7129
+7111-05,Amostrador de minérios,7-11.70,7111
+7111-10,Canteiro,7-11.10,7111
+7111-15,Destroçador de pedra,7-13.20,7113
+7111-20,Detonador,7-11.50,7112
+7111-25,Escorador de minas,7-11.60,7111
+7111-30,Mineiro,7-11.05,7111
+7112-15,Operador de máquina cortadora (minas e pedreiras),7-12.20,8111
+7112-20,Operador de máquina de extração contínua (minas de carvão),7-12.40,8111
+7112-25,Operador de máquina perfuradora (minas e pedreiras),7-12.30,8111
+7112-40,Operador de schutthecar,7-12.60,8111
+7113-05,Operador de sonda a percussão,7-15.27,8113
+7113-10,Operador de sonda rotativa,7-15.25,8113
+7113-15,Sondador (poços de petróleo e gás),7-14.20,8113
+7113-20,Sondador de poços (exceto de petróleo e gás),7-15.20,8113
+7113-25,Plataformista (petróleo),7-14.30,8113
+7113-30,Torrista (petróleo),7-14.40,8113
+7114-05,Garimpeiro,7-19.20,9311
+7114-10,Operador de salina (sal marinho),7-16.20,9311
+7121-05,Moleiro de minérios,7-13.30,8112
+7121-10,Operador de aparelho de flotação,7-13.60,8112
+7121-15,Operador de aparelho de precipitação (minas de ouro ou prata),7-13.70,8112
+7121-20,Operador de britador de mandíbulas,7-13.40,8112
+7121-30,Operador de jig (minas),7-13.80,8112
+7121-35,Operador de peneiras hidráulicas,7-13.50,8112
+7122-05,Cortador de pedras,8-20.20,7113
+7122-10,Gravador de inscrições em pedra,8-20.60,7113
+7122-15,Gravador de relevos em pedra,8-20.70,7113
+7122-20,Polidor de pedras,8-20.25,7113
+7122-25,Torneiro (lavra de pedra),8-20.50,7113
+7122-30,Traçador de pedras,8-20.40,7113
+7151-05,Operador de bate-estacas,9-74.40,8332
+7151-10,Operador de compactadora de solos,9-74.50,8332
+7151-15,Operador de escavadeira,9-74.20,8332
+7151-20,Operador de máquina de abrir valas,9-74.25,8332
+7151-25,Operador de máquinas de construção civil e mineração,9-74.10,8332
+7151-30,Operador de motoniveladora,9-74.45,8332
+7151-35,Operador de pá carregadeira,9-74.22,8332
+7151-40,"Operador de pavimentadora (asfalto, concreto e materiais similares)",9-74.65,8332
+7151-45,Operador de trator de lâmina,9-74.30,8332
+7152-05,Calceteiro,9-59.80,7122
+7152-10,Pedreiro,9-51.10,7122
+7152-15,Pedreiro (chaminés industriais),9-51.25,7122
+7152-20,Pedreiro (material refratário),9-51.30,7122
+7152-25,Pedreiro (mineração),9-51.35,7122
+7152-30,Pedreiro de edificações,9-51.20,7122
+7153-05,Armador de estrutura de concreto,9-52.10,7123
+7153-10,Moldador de corpos de prova em usinas de concreto,9-52.22,7123
+7153-15,Armador de estrutura de concreto armado,9-52.30,7123
+7154-05,Operador de betoneira,9-74.70,8212
+7154-10,Operador de bomba de concreto,9-74.72,8212
+7154-15,Operador de central de concreto,9-74.75,8212
+7155-05,Carpinteiro,9-54.10,7124
+7155-10,Carpinteiro (esquadrias),9-54.20,7124
+7155-15,Carpinteiro (cenários),9-54.30,7124
+7155-20,Carpinteiro (mineração),9-54.65,7124
+7155-25,Carpinteiro de obras,9-54.15,7124
+7155-30,Carpinteiro (telhados),9-54.25,7124
+7155-35,Carpinteiro de fôrmas para concreto,9-54.17,7124
+7155-45,Montador de andaimes (edificações),9-59.40,7129
+7156-05,Eletricista de instalações (cenários),8-55.50,7137
+7156-10,Eletricista de instalações (edifícios),8-55.20,7137
+7156-15,Eletricista de instalações,8-55.10,7137
+7157-05,Aplicador de asfalto impermeabilizante (coberturas),9-56.35,7134
+7157-10,Instalador de isolantes acústicos,9-56.40,7134
+7157-15,Instalador de isolantes térmicos (refrigeração e climatização),9-56.60,7134
+7157-20,Instalador de isolantes térmicos de caldeira e tubulações,9-56.50,7134
+7157-25,"Instalador de material isolante, à mão (edificações)",9-56.20,7134
+7157-30,"Instalador de material isolante, à máquina (edificações)",9-56.30,7134
+7161-05,Acabador de superfícies de concreto,9-52.40,7123
+7161-10,Revestidor de superfícies de concreto,9-52.50,7123
+7162-05,Telhador (telhas de argila e materiais similares),9-53.20,7131
+7162-10,Telhador (telhas de fibrocimento),9-53.70,7131
+7162-15,Telhador (telhas metálicas),9-53.50,7131
+7162-20,Telhador (telhas plásticas),9-53.30,7131
+7163-05,Vidraceiro,9-57.10,7135
+7163-10,Vidraceiro (edificações),9-57.20,7135
+7163-15,Vidraceiro (vitrais),9-57.50,7135
+7164-05,Gesseiro,9-55.20,7133
+7165-05,Assentador de revestimentos e laminados de madeira,9-55.60,7132
+7165-10,Assentador de revestimentos cerâmicos,9-55.50,7132
+7165-15,Pastilheiro,9-55.55,7132
+7165-20,Lustrador de piso,9-55.70,7132
+7165-25,"Assentador de mármores, granitos e outras pedras decorativas",9-55.35,7132
+7165-30,Mosaísta,9-55.45,7132
+7165-35,Taqueiro,9-55.65,7132
+7166-05,Calafetador,9-59.65,7122
+7166-10,Pintor de obras,9-31.20,7141
+7166-15,"Revestidor de interiores (papel, material plástico e emborrachados)",9-59.25,7141
+7170-05,Demolidor de edificações,9-59.45,9313
+7170-10,Operador de martelete,9-74.80,9313
+7170-15,Poceiro (edificações),9-59.55,9313
+7170-20,Servente de obras,9-59.32,9313
+7170-25,Vibradorista,9-74.77,9313
+7202-05,Mestre (construção naval),7-01.80,8281
+7202-10,Mestre (indústria de automotores e material de transportes),7-01.45,8281
+7202-15,Mestre (indústria de máquinas e outros equipamentos mecânicos),7-01.40,8281
+7211-05,Ferramenteiro,8-32.10,7222
+7211-10,"Ferramenteiro de mandris, calibradores e outros dispositivos",8-32.30,7222
+7211-15,Modelador de metais (fundição),8-32.40,7222
+7212-05,Operador de máquina de eletroerosão,8-33.27,7223
+7212-10,Operador de máquinas operatrizes,8-33.08,7223
+7212-20,Operador de usinagem convencional por abrasão,8-33.17,7223
+7212-25,Preparador de máquinas-ferramenta,8-34.10,7223
+7213-05,Afiador de cardas,8-36.60,7224
+7213-10,Afiador de cutelaria,8-36.40,7224
+7213-15,Afiador de ferramentas,8-36.30,7224
+7213-20,Afiador de serras,8-36.50,7224
+7213-25,Polidor de metais,8-36.20,7224
+7214-05,Operador de centro de usinagem com comando numérico,8-37.60,8211
+7214-10,Operador de fresadora com comando numérico,8-37.30,8211
+7214-15,Operador de mandriladora com comando numérico,8-37.50,8211
+7214-20,"Operador de máquina eletroerosão, à fio, com comando numérico",8-37.27,8211
+7214-25,Operador de retificadora com comando numérico,8-37.17,8211
+7214-30,Operador de torno com comando numérico,8-37.20,8211
+7221-05,Forjador,8-31.10,7221
+7221-10,Forjador a martelo,8-31.30,7221
+7221-15,Forjador prensista,8-31.40,7221
+7222-05,Fundidor de metais,7-24.20,8122
+7222-10,Operador de lingotamento,7-24.60,8122
+7222-15,Operador de acabamento de peças fundidas,7-24.70,8122
+7222-20,Operador de máquina de fundição,7-24.30,8122
+7222-30,Operador de vazamento,7-24.80,8122
+7222-35,Preparador de panelas,7-24.75,8122
+7223-05,"Macheiro, a mão",7-25.50,7211
+7223-10,"Macheiro, a máquina",7-25.60,7211
+7223-15,"Moldador e fundição, a mão",7-25.20,7211
+7223-20,"Moldador em fundição, a máquina",7-25.40,7211
+7223-25,Operador de equipamentos de preparação de areia,7-25.15,7211
+7224-10,Estirador de tubos de metal sem costura,7-27.40,8124
+7224-15,"Trefilador de metais, à máquina",7-27.30,8124
+7231-05,Cementador de metais,7-26.40,8123
+7231-10,Normalizador de metais e de compósitos,7-26.50,8123
+7231-15,Operador de equipamento para resfriamento,7-26.60,8123
+7231-20,Operador de forno de tratamento térmico de metais,7-26.20,8123
+7231-25,Temperador de metais e de compósitos,7-26.30,8123
+7232-05,Decapador,7-28.45,8223
+7232-10,Fosfatizador,7-28.55,8223
+7232-15,Galvanizador,7-28.20,8223
+7232-20,"Metalizador, à pistola",7-28.50,8223
+7232-25,Metalizador (banho quente),7-28.30,8223
+7232-30,Operador de máquina recobridora de arame,7-28.40,8223
+7232-35,Operador de zincagem (processo eletrolítico),7-28.35,8223
+7232-40,Oxidador,7-28.60,8223
+7233-10,Pintor a pincel e rolo (exceto obras e estruturas metálicas),9-39.20,7142
+7233-15,Pintor de estruturas metálicas,9-31.30,7142
+7233-20,Pintor de veículos (fabricação),9-39.60,7142
+7233-25,Pintor por imersão,9-39.40,7142
+7233-30,"Pintor, a pistola (exceto obras e estruturas metálicas)",9-39.30,7142
+7241-05,Assentador de canalização (edificações),8-71.60,7136
+7241-10,Encanador,8-71.05,7136
+7241-15,Instalador de tubulações,8-71.10,7136
+7241-20,Instalador de tubulações (aeronaves),8-71.40,7136
+7241-25,Instalador de tubulações (embarcações),8-71.30,7136
+7241-30,Instalador de tubulações de gás combustível (produção e distribuição),8-71.20,7136
+7241-35,Instalador de tubulações de vapor (produção e distribuição),8-71.50,7136
+7242-05,Montador de estruturas metálicas,8-74.40,7214
+7242-10,Montador de estruturas metálicas de embarcações,8-74.50,7214
+7242-15,Rebitador a martelo pneumático,8-74.70,7214
+7242-20,Preparador de estruturas metálicas,8-74.30,7214
+7242-25,Riscador de estruturas metálicas,8-74.20,7214
+7242-30,"Rebitador, a mão",8-74.60,7214
+7243-05,Brasador,8-72.45,7212
+7243-10,Oxicortador a mão e a máquina,8-72.55,7212
+7243-15,Soldador,8-72.10,7212
+7243-20,Soldador a oxigás,8-72.15,7212
+7243-25,Soldador elétrico,8-72.25,7212
+7244-05,Caldeireiro (chapas de cobre),8-73.30,7213
+7244-10,Caldeireiro (chapas de ferro e aço),8-73.50,7213
+7244-15,Chapeador,8-73.10,7213
+7244-20,Chapeador de carrocerias metálicas (fabricação),8-73.70,7213
+7244-25,Chapeador naval,8-73.85,7213
+7244-30,Chapeador de aeronaves,8-73.80,7213
+7244-40,Serralheiro,8-39.15,7213
+7245-05,Operador de máquina de cilindrar chapas,8-73.55,8282
+7245-10,Operador de máquina de dobrar chapas,8-73.35,8282
+7245-15,Prensista (operador de prensa),8-73.25,8282
+7250-10,Ajustador mecânico,8-40.10,7223
+7250-15,Ajustador mecânico (usinagem em bancada e em máquinas-ferramentas),8-40.20,7223
+7250-20,Ajustador mecânico em bancada,8-40.30,7223
+7251-05,"Montador de máquinas, motores e acessórios (montagem em série)",8-49.17,8281
+7252-05,Montador de máquinas,8-41.10,8281
+7252-10,Montador de máquinas gráficas,8-41.45,8281
+7252-15,Montador de máquinas operatrizes para madeira,8-41.55,8281
+7252-20,Montador de máquinas têxteis,8-41.50,8281
+7252-25,Montador de máquinas-ferramentas (usinagem de metais),8-41.35,8281
+7253-05,Montador de equipamento de levantamento,8-41.13,8281
+7253-10,Montador de máquinas agrícolas,8-41.60,8281
+7253-15,Montador de máquinas de minas e pedreiras,8-41.40,8281
+7253-20,Montador de máquinas de terraplenagem,8-41.65,8281
+7254-05,Mecânico montador de motores de aeronaves,8-41.20,8281
+7254-10,Mecânico montador de motores de embarcações,8-41.25,8281
+7254-15,Mecânico montador de motores de explosão e diesel,8-41.15,8281
+7254-20,Mecânico montador de turboalimentadores,8-41.30,8281
+7256-05,Montador de estruturas de aeronaves,8-41.85,8281
+7256-10,Montador de sistemas de combustível de aeronaves,8-41.87,8281
+7257-05,Mecânico de refrigeração e climatização,8-41.80,8281
+7301-05,Supervisor de montagem e instalação eletroeletrônica,7-01.50,7241
+7311-05,Montador de equipamentos eletroeletrônicos odonto-médico-hospitalares,8-52.30,8283
+7311-10,Montador de equipamentos eletrônicos (computadores e equipamentos auxiliares),8-52.40,8283
+7311-15,Montador de equipamentos eletroeletrônicos (instrumentos de medição),8-51.50,8282
+7311-20,Montador de equipamentos eletroeletrônicos (aparelhos eletrodomésticos),8-51.70,8282
+7311-25,Montador de equipamentos elétricos (centrais elétricas),8-51.40,8282
+7311-30,Montador de equipamentos elétricos (motores e dínamos),8-51.20,8282
+7311-35,Montador de equipamentos elétricos,8-51.10,8282
+7311-40,Montador de equipamentos eletrônicos (instalações de sinalização),8-52.60,8283
+7311-45,Montador de equipamentos eletroeletrônicos (máquinas industriais),8-52.50,8283
+7311-50,Montador de equipamentos eletrônicos,8-52.10,8283
+7311-55,Montador de equipamentos elétricos (elevadores e equipamentos similares),8-51.60,8282
+7311-60,Montador de equipamentos elétricos (transformadores),8-51.30,8282
+7311-65,"Bobinador eletricista, à mão",8-59.50,8282
+7311-70,"Bobinador eletricista, à máquina",8-59.60,8283
+7311-75,Operador de linha de montagem (aparelhos elétricos),8-59.30,8282
+7311-80,Operador de linha de montagem (aparelhos eletrônicos),8-59.40,8283
+7312-05,"Montador de equipamentos eletrônicos (estação de rádio, tv e equipamentos de radar)",8-52.20,8283
+7313-20,Instalador-reparador de linhas e aparelhos de telecomunicações,8-56.50,7244
+7321-05,"Eletricista de manutenção de linhas elétricas, telefônicas e de comunicação de dados",8-57.60,7245
+7321-10,Emendador de cabos elétricos e telefônicos (aéreos e subterrâneos),8-57.50,7245
+7321-15,"Examinador de cabos, linhas elétricas e telefônicas",8-57.70,7245
+7321-20,Instalador de linhas elétricas de alta e baixa tensão (rede aérea e subterrânea),8-57.20,7245
+7321-25,Instalador eletricista (tração de veículos),8-57.30,7245
+7321-30,Instalador-reparador de redes telefônicas e de comunicação de dados,8-57.40,7245
+7321-35,Ligador de linhas de comunicação de voz e dados,8-57.80,7245
+7411-05,Ajustador de instrumentos de precisão,8-42.30,7311
+7411-10,Montador de instrumentos de óptica,8-42.35,7311
+7411-15,Montador de instrumentos de precisão,8-42.40,7311
+7411-20,Relojoeiro (fabricação),8-42.20,7311
+7411-25,Relojoeiro (reparação),8-42.25,7311
+7421-05,Afinador de instrumentos musicais,9-41.80,7312
+7421-10,Confeccionador de acordeão,9-41.50,7312
+7421-15,Confeccionador de instrumentos de corda,9-41.20,7312
+7421-20,"Confeccionador de instrumentos de percussão (pele, couro ou plástico)",9-41.45,7312
+7421-25,Confeccionador de instrumentos de sopro (madeira),9-41.30,7312
+7421-30,Confeccionador de instrumentos de sopro (metal),9-41.40,7312
+7421-35,Confeccionador de órgão,9-41.60,7312
+7421-40,Confeccionador de piano acústico,9-41.70,7312
+7502-05,Supervisor da indústria de minerais não metálicos (exceto os derivados de petróleo e carvão),7-01.35,8131
+7510-05,Engastador (jóias),8-80.40,7313
+7510-10,Joalheiro,8-80.10,7313
+7510-15,Joalheiro (reparações),8-80.20,7313
+7510-20,Lapidador (joias),8-80.30,7313
+7511-05,Bate-folha a máquina,8-80.60,7313
+7511-15,Gravador (joalheria e ourivesaria),8-80.80,7313
+7511-20,Laminador de metais preciosos à máquina,8-80.70,7313
+7511-25,Ourives,8-80.50,7313
+7521-15,Soprador de vidro,8-90.20,7322
+7522-10,Cortador de vidro,8-91.56,7322
+7522-15,Gravador de vidro a água-forte,8-94.30,7323
+7522-20,Gravador de vidro a esmeril,8-94.20,7323
+7522-25,Gravador de vidro a jato de areia,8-94.40,7323
+7522-30,Lapidador de vidros e cristais,8-91.64,7322
+7522-35,Surfassagista,8-91.60,7322
+7523-05,Ceramista,8-92.10,7321
+7523-10,Ceramista (torno de pedal e motor),8-92.25,7321
+7523-15,Ceramista (torno semiautomático),8-92.30,7321
+7523-20,Ceramista modelador,8-92.15,7321
+7523-25,Ceramista moldador,8-92.20,7321
+7524-05,Decorador de cerâmica,8-95.40,7324
+7524-10,Decorador de vidro,8-95.55,7324
+7524-15,"Decorador de vidro, a pincel",8-95.20,7324
+7524-20,Operador de esmaltadeira,8-95.60,7324
+7524-25,Operador de espelhamento,8-95.70,7324
+7524-30,"Pintor de cerâmica, a pincel",8-95.30,7324
+7601-05,Contramestre de acabamento (indústria têxtil),7-04.50,8269
+7601-10,Contramestre de fiação (indústria têxtil),7-04.20,8269
+7601-15,Contramestre de malharia (indústria têxtil),7-04.40,8269
+7601-20,Contramestre de tecelagem (indústria têxtil),7-04.30,8269
+7601-25,Mestre (indústria têxtil e de confecções),7-01.65,8269
+7604-05,Supervisor (indústria de calçados e artefatos de couro),7-01.70,7442
+7606-05,Supervisor das artes gráficas (indústria editorial e gráfica),7-01.77,3119
+7611-05,Classificador de fibras têxteis,7-51.15,7431
+7611-10,Lavador de lã,7-51.20,7431
+7612-05,Operador de abertura (fiação),7-51.60,8261
+7612-20,Operador de cardas,7-51.35,8261
+7612-25,Operador de conicaleira,7-52.50,8261
+7612-30,Operador de filatório,7-52.10,8261
+7612-35,Operador de laminadeira e reunideira,7-51.80,7431
+7612-40,Operador de maçaroqueira,7-51.75,8261
+7612-50,Operador de passador (fiação),7-51.70,8261
+7612-55,Operador de penteadeira,7-51.45,8261
+7612-60,Operador de retorcedeira,7-52.40,8261
+7613-03,Tecelão (redes),7-54.65,8262
+7613-06,Tecelão (rendas e bordados),7-54.50,8262
+7613-09,Tecelão (tear automático),7-54.42,8262
+7613-12,Tecelão (tear jacquard),7-54.45,8262
+7613-15,Tecelão (tear mecânico de maquineta),7-54.33,8262
+7613-18,Tecelão (tear mecânico de xadrez),7-54.47,8262
+7613-21,Tecelão (tear mecânico liso),7-54.32,8262
+7613-24,"Tecelão (tear mecânico, exceto jacquard)",7-54.40,8262
+7613-27,"Tecelão de malhas, a máquina",7-55.20,8262
+7613-30,Tecelão de malhas (máquina circular),7-55.25,8262
+7613-33,Tecelão de malhas (máquina retilínea),7-55.27,8262
+7613-36,"Tecelão de meias, a máquina",7-55.30,8262
+7613-39,Tecelão de meias (máquina circular),7-55.35,8262
+7613-42,Tecelão de meias (máquina retilínea),7-55.37,8262
+7613-45,"Tecelão de tapetes, a máquina",7-54.60,8262
+7613-48,Operador de engomadeira de urdume,7-53.60,8262
+7613-51,Operador de espuladeira,7-53.15,8262
+7613-54,Operador de máquina de cordoalha,7-59.60,8262
+7613-57,Operador de urdideira,7-53.25,8262
+7613-60,Passamaneiro a máquina,7-59.25,8262
+7613-63,Remetedor de fios,7-53.35,8262
+7613-66,Picotador de cartões jacquard,7-53.50,8262
+7614-05,Alvejador (tecidos),7-56.15,8264
+7614-10,Estampador de tecido,7-56.75,8264
+7614-15,Operador de calandras (tecidos),7-56.70,8264
+7614-20,Operador de chamuscadeira de tecidos,7-56.47,8264
+7614-25,Operador de impermeabilizador de tecidos,7-56.60,8264
+7614-30,Operador de máquina de lavar fios e tecidos,7-56.35,8264
+7614-35,Operador de rameuse,7-56.80,8264
+7618-15,Revisor de tecidos acabados,7-56.85,3152
+7621-05,Classificador de peles,7-61.20,7441
+7621-10,Descarnador de couros,7-61.35,7441
+7621-15,Estirador de couros e peles (preparação),7-61.37,7441
+7621-25,Rachador de couros,7-61.40,7441
+7622-05,Curtidor (couros e peles),7-61.45,7441
+7622-20,Rebaixador de couros,7-61.43,7441
+7623-15,Lixador de couros e peles,7-61.47,7441
+7623-35,Palecionador de couros e peles,7-61.53,7441
+7623-40,Preparador de couros curtidos,7-61.50,7441
+7630-05,Alfaiate,7-91.20,7433
+7630-20,Costureiro de roupa de couro e pele,7-91.50,7433
+7631-10,Cortador de roupas,7-94.50,7435
+7631-20,Riscador de roupas,7-94.40,7435
+7632-05,"Costureiro de roupas de couro e pele, a máquina na confecção em série",7-95.55,8263
+7632-10,Costureiro na confecção em série,7-95.10,8263
+7632-15,"Costureiro, a máquina na confecção em série",7-95.50,8263
+7633-10,"Bordador, à máquina",7-97.30,8263
+7641-05,"Cortador de calçados, a máquina (exceto solas e palmilhas)",8-02.20,7442
+7641-10,"Cortador de solas e palmilhas, a máquina",8-02.35,7442
+7641-15,Preparador de calçados,8-02.30,7442
+7641-20,Preparador de solas e palmilhas,8-02.40,7442
+7642-05,"Costurador de calçados, a máquina",8-02.50,8266
+7642-10,Montador de calçados,8-02.45,8266
+7643-05,Acabador de calçados,8-02.55,7442
+7650-10,Chapeleiro de senhoras,7-93.20,7433
+7651-05,Cortador de artefatos de couro (exceto roupas e calçados),8-03.30,7442
+7652-05,Colchoeiro (confecção de colchões),7-96.40,7437
+7652-15,Confeccionador de brinquedos de pano,9-49.40,7436
+7652-25,"Confeccionador de velas náuticas, barracas e toldos",7-99.20,7436
+7652-30,Estofador de aviões,7-96.50,7437
+7652-35,Estofador de móveis,7-96.20,7437
+7653-10,"Costurador de artefatos de couro, à máquina (exceto roupas e calçados)",8-03.50,8269
+7653-15,Montador de artefatos de couro (exceto roupas e calçados),8-03.60,8269
+7661-05,Copiador de chapa,9-24.25,7343
+7661-20,Editor de texto e imagem,9-21.43,7341
+7661-25,Montador de fotolito (analógico e digital),9-25.37,7343
+7661-50,Operador de processo de tratamento de imagem,9-25.55,7343
+7662-05,Impressor (serigrafia),9-29.30,8251
+7662-15,Impressor de ofsete (plano e rotativo),9-22.40,8251
+7662-20,Impressor de rotativa,9-22.30,8251
+7662-25,Impressor de rotogravura,9-22.60,8251
+7662-30,Impressor digital,9-22.35,8251
+7662-45,Impressor tampográfico,9-22.27,8251
+7663-05,Acabador de embalagens (flexíveis e cartotécnicas),9-26.56,7345
+7663-10,Impressor de corte e vinco,9-22.80,7345
+7663-15,Operador de acabamento (indústria gráfica),9-26.55,7345
+7663-20,Operador de guilhotina (corte de papel),9-26.60,7345
+7664-10,"Revelador de filmes fotográficos, em preto e branco",9-27.30,7344
+7664-15,"Revelador de filmes fotográficos, em cores",9-27.20,7344
+7681-05,Tecelão (tear manual),7-54.30,7432
+7681-10,"Tecelão de tapetes, à mão",7-54.55,7432
+7681-15,"Tricoteiro, à mão",7-59.55,7432
+7681-20,Redeiro,7-59.40,7432
+7681-25,Chapeleiro (chapéus de palha),9-42.70,7432
+7681-30,"Crocheteiro, a mão",7-59.30,7432
+7682-05,"Bordador, à mão",7-97.20,7436
+7682-10,Cerzidor,7-97.40,7436
+7683-05,Artífice do couro,8-03.10,7442
+7683-10,"Cortador de calçados, à mão (exceto solas)",8-02.25,7442
+7683-15,"Costurador de artefatos de couro, à mão (exceto roupas e calçados)",8-03.40,7442
+7683-20,Sapateiro (calçados sob medida),8-01.10,7442
+7683-25,Seleiro,8-03.20,7442
+7686-05,Tipógrafo,9-21.10,7341
+7686-10,Linotipista,9-21.30,7341
+7686-15,Monotipista,9-21.35,7341
+7686-20,Paginador,9-21.45,7341
+7686-25,Pintor de letreiros,9-39.50,7346
+7686-30,Confeccionador de carimbos de borracha,9-49.50,7346
+7687-05,Encadernador e gravador de capas e lombadas,9-26.40,7345
+7701-05,Encarregado de produção (indústria de madeira e mobiliário),7-01.75,7422
+7711-05,Marceneiro,8-11.10,7422
+7711-10,Modelador de madeira,8-19.35,7422
+7711-15,Maquetista na marcenaria,8-19.40,7422
+7711-20,Tanoeiro,8-19.30,7422
+7721-05,Classificador de madeira,7-39.20,7421
+7721-10,Impregnador de madeira,7-31.30,7421
+7721-15,Operador de secagem de madeira,7-31.20,7421
+7731-05,Cortador de laminados de madeira,7-32.40,8141
+7731-10,Operador de serras no desdobramento de madeira,7-32.15,8141
+7731-15,Serrador de bordas no desdobramento de madeira,7-32.20,8141
+7731-20,Serrador de madeira,7-32.10,8141
+7731-25,Serrador de madeira (serra circular múltipla),7-32.25,8141
+7731-30,Serrador de madeira (serra de fita múltipla),7-32.30,8141
+7732-05,Operador de máquina intercaladora de placas (compensados),7-35.20,8141
+7732-10,Prensista de aglomerados,7-35.50,8141
+7732-15,Prensista de compensados,7-35.30,8141
+7732-20,Preparador de aglomerantes,7-35.40,8141
+7733-10,Operador de entalhadeira (usinagem de madeira),8-12.60,7423
+7733-15,Operador de fresadora (usinagem de madeira),8-12.80,7423
+7733-20,Operador de lixadeira (usinagem de madeira),8-12.65,7423
+7733-25,"Operador de máquina de usinagem madeira, em geral",8-12.10,7423
+7733-30,Operador de molduradora (usinagem de madeira),8-12.50,7423
+7733-35,Operador de plaina desengrossadeira,8-12.70,7423
+7733-40,Operador de serras (usinagem de madeira),8-12.20,7423
+7733-45,Operador de torno automático (usinagem de madeira),8-12.40,7423
+7733-50,Operador de tupia (usinagem de madeira),8-12.15,7423
+7733-55,Torneiro na usinagem convencional de madeira,8-12.30,7423
+7734-15,Operador de máquina de usinagem de madeira (produção em série),8-12.85,8240
+7751-05,Entalhador de madeira,8-19.45,7422
+7751-10,Folheador de móveis de madeira,8-11.30,7422
+7751-15,Lustrador de peças de madeira,8-11.40,7422
+7751-20,Marcheteiro,8-19.65,7422
+7764-05,Cesteiro,9-42.20,7424
+7764-10,"Confeccionador de escovas, pincéis e produtos similares (à mão)",9-42.40,7424
+7764-15,"Confeccionador de escovas, pincéis e produtos similares (à máquina)",9-42.45,7424
+7764-20,"Confeccionador de móveis de vime, junco e bambu",9-42.50,7424
+7764-25,Esteireiro,9-42.60,7424
+7764-30,Vassoureiro,9-42.30,7424
+7771-05,Carpinteiro naval (construção de pequenas embarcações),9-54.50,7124
+7771-10,Carpinteiro naval (embarcações),9-54.45,7124
+7771-15,Carpinteiro naval (estaleiros),9-54.40,7124
+7772-05,Carpinteiro de carretas,9-54.85,7124
+7772-10,Carpinteiro de carrocerias,9-54.80,7124
+7817-05,Mergulhador profissional (raso e profundo),9-59.60,7216
+7821-05,Operador de draga,9-74.35,8333
+7821-10,Operador de guindaste (fixo),9-73.25,8333
+7821-15,Operador de guindaste móvel,9-73.30,8333
+7821-20,Operador de máquina rodoferroviária,9-73.65,8333
+7821-25,Operador de monta-cargas (construção civil),9-73.35,8333
+7821-30,Operador de ponte rolante,9-73.20,8333
+7821-35,Operador de pórtico rolante,9-73.23,8333
+7821-40,Operador de talha elétrica,9-73.34,8333
+7821-45,Sinaleiro (ponte rolante),9-73.60,8333
+7822-05,Guincheiro (construção civil),9-73.50,8333
+7822-10,Operador de docagem,9-89.30,8333
+7822-20,Operador de empilhadeira,9-79.20,8334
+7823-05,Motorista de carro de passeio,9-85.35,8322
+7823-10,Motorista de furgão ou veículo similar,9-85.50,8322
+7823-15,Motorista de táxi,9-85.30,8322
+7825-10,Motorista de caminhão (rotas regionais e internacionais),9-85.60,8324
+7826-10,Maquinista de trem,9-83.20,8311
+7826-15,Maquinista de trem metropolitano,9-83.50,8311
+7826-20,Motorneiro,9-85.20,8311
+7826-25,Auxiliar de maquinista de trem,9-83.40,8311
+7827-15,Moço de convés,9-81.40,8340
+7828-05,Condutor de veículos de tração animal (ruas e estradas),9-86.20,9332
+7828-10,Tropeiro,9-86.40,9332
+7832-05,Carregador (aeronaves),9-71.35,9333
+7832-10,Carregador (armazém),9-71.45,9333
+7832-15,Carregador (veículos de transportes terrestres),9-71.30,9333
+7832-20,Estivador,9-71.20,9333
+7832-25,Ajudante de motorista,9-89.45,9333
+7841-05,"Embalador, a mão",9-71.50,8290
+7841-10,"Embalador, a máquina",9-71.55,8290
+7841-15,Operador de máquina de etiquetar,9-71.60,8290
+7841-20,Operador de máquina de envasar líquidos,9-71.80,8290
+7841-25,Operador de prensa de enfardamento,9-71.70,8290
+7842-05,Alimentador de linha de produção,9-91.50,9321
+8101-05,Mestre (indústria petroquímica e carboquímica),7-01.25,8159
+8101-10,Mestre de produção química,7-01.20,8159
+8102-05,Mestre (indústria de borracha e plástico),7-01.30,8232
+8110-10,"Operador de sala de controle de instalações químicas, petroquímicas e afins",7-05.50,8159
+8111-05,Moleiro (tratamentos químicos e afins),7-41.30,8151
+8111-10,Operador de máquina misturadeira (tratamentos químicos e afins),7-41.40,8151
+8111-15,Operador de britadeira (tratamentos químicos e afins),7-41.20,8151
+8111-20,Operador de concentração,7-49.85,8159
+8111-25,Trabalhador da fabricação de resinas e vernizes,7-49.60,8159
+8111-30,Trabalhador de fabricação de tintas,7-49.50,8159
+8112-05,Operador de calcinação (tratamento químico e afins),7-42.30,8152
+8112-15,Operador de tratamento químico de materiais radioativos,7-49.40,8159
+8113-05,Operador de centrifugadora (tratamentos químicos e afins),7-43.40,8153
+8113-15,Operador de filtro de secagem (mineração),7-43.35,8153
+8113-20,Operador de filtro de tambor rotativo (tratamentos químicos e afins),7-43.30,8153
+8113-30,Operador de filtro-prensa (tratamentos químicos e afins),7-43.20,8153
+8113-35,Operador de filtros de parafina (tratamentos químicos e afins),7-43.60,8155
+8114-05,Destilador de madeira,7-44.60,8154
+8114-10,Destilador de produtos químicos por batelada (exceto petróleo),7-44.20,8154
+8114-15,Operador de destilação de produtos químicos por processo contínuo (exceto petróleo),7-44.30,8154
+8114-20,"Operador de aparelho de reação e conversão (produtos químicos, exceto petróleo)",7-44.40,8154
+8114-25,Operador de equipamento de destilação de álcool,7-44.70,8154
+8114-30,Operador de evaporador na destilação,7-44.50,8154
+8115-05,Operador de painel de controle (refinação de petróleo),7-45.50,8155
+8115-10,Operador de transferência e estocagem - na refinação do petróleo,7-45.30,8155
+8116-05,Operador de britador de coque,7-46.40,8159
+8116-10,Operador de carro de apagamento e coque,7-46.80,8159
+8116-15,Operador de destilação e subprodutos de coque,7-46.60,8159
+8116-20,Operador de enfornamento e desenfornamento de coque,7-46.70,8159
+8116-25,Operador de exaustor (coqueria),7-46.30,8159
+8116-30,Operador de painel de controle (coqueificação),7-46.85,8159
+8116-35,Operador de preservação e controle térmico,7-46.75,8159
+8116-45,Operador de refrigeração (coqueria),7-46.50,8159
+8116-50,Operador de sistema de reversão (coqueria),7-46.20,8159
+8117-05,Bamburista,9-01.20,8231
+8117-10,Calandrista de borracha,9-01.25,8231
+8117-15,Confeccionador de pneumáticos,9-02.20,8231
+8117-25,Confeccionador de velas por imersão,9-49.55,8229
+8117-35,Confeccionador de velas por moldagem,9-49.65,8229
+8117-45,Laminador de plástico,9-03.40,8232
+8117-50,Moldador de borracha por compressão,9-01.35,8231
+8117-60,Moldador de plástico por compressão,9-03.30,8232
+8117-70,Moldador de plástico por injeção,9-03.20,8232
+8117-75,Trefilador de borracha,9-01.30,8231
+8118-10,Drageador (medicamentos),7-47.20,8221
+8121-05,Pirotécnico,7-49.75,8222
+8181-10,Auxiliar de laboratório de análises físico-químicas,5-72.80,5132
+8211-10,Operador de máquina de sinterizar,7-29.80,8223
+8212-05,Forneiro e operador (alto-forno),7-21.20,8121
+8212-10,Forneiro e operador (conversor a oxigênio),7-21.40,8121
+8212-15,Forneiro e operador (forno elétrico),7-21.60,8121
+8212-20,Forneiro e operador (refino de metais não-ferrosos),7-21.70,8121
+8212-25,Forneiro e operador de forno de redução direta,7-21.80,8121
+8212-30,Operador de aciaria (basculamento de convertedor),7-20.25,8121
+8212-35,Operador de aciaria (dessulfuração de gusa),7-20.23,8121
+8212-40,Operador de aciaria (recebimento de gusa),7-20.15,8121
+8212-45,Operador de área de corrida,7-21.13,8121
+8212-50,Operador de desgaseificação,7-49.45,8121
+8212-55,Soprador de convertedor,7-20.35,8121
+8213-05,Operador de laminador,7-22.10,8122
+8213-10,Operador de laminador de barras a frio,7-22.40,8122
+8213-15,Operador de laminador de barras a quente,7-22.20,8122
+8213-20,Operador de laminador de metais não-ferrosos,7-22.50,8122
+8213-25,Operador de laminador de tubos,7-22.60,8122
+8213-30,Operador de montagem de cilindros e mancais,7-22.80,8122
+8213-35,Recuperador de guias e cilindros,7-22.85,8122
+8214-05,Encarregado de acabamento de chapas e metais (têmpera),7-29.15,8223
+8214-10,Escarfador,7-29.70,8223
+8214-15,Marcador de produtos (siderúrgico e metalúrgico),7-29.87,8223
+8214-20,"Operador de bobinadeira de tiras a quente, no acabamento de chapas e metais",7-29.60,8223
+8214-25,Operador de cabine de laminação (fio-máquina),7-29.50,8223
+8214-30,Operador de escória e sucata,7-29.85,8223
+8214-35,Operador de jato abrasivo,7-29.35,8223
+8214-40,"Operador de tesoura mecânica e máquina de corte, no acabamento de chapas e metais",8-39.80,8223
+8214-45,Preparador de sucata e aparas,7-29.77,8223
+8214-50,Rebarbador de metal,7-29.30,8223
+8221-05,Forneiro de cubilô,7-23.30,8122
+8221-10,Forneiro de forno-poço,7-23.25,8122
+8221-15,Forneiro de fundição (forno de redução),7-23.17,8122
+8221-20,Forneiro de reaquecimento e tratamento térmico na metalurgia,7-23.40,8122
+8221-25,Forneiro de revérbero,7-23.15,8122
+8231-05,Preparador de massa (fabricação de abrasivos),8-99.60,8139
+8231-10,Preparador de massa (fabricação de vidro),8-99.20,8139
+8231-15,Preparador de massa de argila,8-99.30,8139
+8231-20,Preparador de barbotina,8-99.40,8139
+8231-25,Preparador de esmaltes (cerâmica),8-99.50,8139
+8231-30,Preparador de aditivos,7-29.67,8139
+8232-10,Extrusor de fios ou fibras de vidro,8-99.70,8139
+8232-15,Forneiro na fundição de vidro,8-93.20,8131
+8232-20,Forneiro no recozimento de vidro,8-93.30,8131
+8232-30,"Moldador de abrasivos na fabricação de cerâmica, vidro e porcelana",9-43.60,8131
+8232-35,Operador de banho metálico de vidro por flutuação,8-91.52,8131
+8232-40,Operador de máquina de soprar vidro,8-90.30,8131
+8232-45,Operador de máquina extrusora de varetas e tubos de vidro,8-90.70,8131
+8232-50,Operador de prensa de moldar vidro,8-90.45,8131
+8232-55,Temperador de vidro,8-93.40,8131
+8232-65,Trabalhador na fabricação de produtos abrasivos,9-43.50,8131
+8233-05,Classificador e empilhador de tijolos refratários,7-29.65,8212
+8233-15,Forneiro (materiais de construção),8-93.60,8131
+8233-20,Trabalhador da elaboração de pré-fabricados (fibrocimento sem amianto),9-43.30,8212
+8233-25,Trabalhador da elaboração de pré-fabricados (concreto armado),9-43.20,8212
+8233-30,Trabalhador da fabricação de pedras artificiais,9-43.40,8212
+8281-05,Oleiro (fabricação de telhas),8-92.43,7321
+8281-10,Oleiro (fabricação de tijolos),8-92.40,7321
+8301-05,"Mestre (indústria de celulose, papel e papelão)",7-01.55,8253
+8311-05,Cilindreiro na preparação de pasta para fabricação de papel,7-33.60,8142
+8311-10,Operador de branqueador de pasta para fabricação de papel,7-33.50,8142
+8311-15,Operador de digestor de pasta para fabricação de papel,7-33.40,8142
+8311-20,Operador de lavagem e depuração de pasta para fabricação de papel,7-33.55,8142
+8311-25,Operador de máquina de secar celulose,7-33.70,8142
+8321-05,Calandrista de papel,7-34.40,8143
+8321-10,Operador de cortadeira de papel,7-34.70,8143
+8321-15,Operador de máquina de fabricar papel (fase úmida),7-34.20,8143
+8321-20,Operador de máquina de fabricar papel (fase seca),7-34.30,8143
+8321-25,Operador de máquina de fabricar papel e papelão,7-34.10,8143
+8321-35,Operador de rebobinadeira na fabricação de papel e papelão,7-39.30,8142
+8331-05,"Cartonageiro, a máquina",9-10.30,8253
+8331-10,"Confeccionador de bolsas, sacos e sacolas e papel, a máquina",9-10.70,8253
+8331-15,"Confeccionador de sacos de celofane, a máquina",9-10.80,8253
+8331-20,Operador de máquina de cortar e dobrar papelão,9-10.50,8253
+8331-25,Operador de prensa de embutir papelão,9-10.60,8253
+8332-05,"Cartonageiro, a mão (caixas de papelão)",9-10.20,8286
+8401-05,Supervisor de produção da indústria alimentícia,7-01.60,7415
+8401-20,Chefe de confeitaria,7-76.65,7412
+8411-05,Moleiro de cereais (exceto arroz),7-71.20,8273
+8411-10,Moleiro de especiarias,7-71.40,8273
+8411-15,Operador de processo de moagem,7-71.10,8273
+8412-10,Refinador de sal,7-79.50,8275
+8413-05,Operador de cristalização na refinação de açucar,7-72.50,8276
+8413-10,Operador de equipamentos de refinação de açúcar (processo contínuo),7-72.60,8276
+8413-15,Operador de moenda na fabricação de açúcar,7-72.20,8276
+8413-20,Operador de tratamento de calda na refinação de açúcar,7-72.40,8276
+8414-08,Cozinhador (conservação de alimentos),7-74.10,8271
+8414-16,Cozinhador de carnes,7-74.45,8271
+8414-20,Cozinhador de frutas e legumes,7-74.25,8275
+8414-28,Cozinhador de pescado,7-74.15,8271
+8414-32,Desidratador de alimentos,7-74.40,8275
+8414-40,Esterilizador de alimentos,7-74.20,8275
+8414-44,Hidrogenador de óleos e gorduras,7-79.30,8275
+8414-48,Lagareiro,7-79.20,8275
+8414-56,Operador de câmaras frias,7-74.30,8271
+8414-60,Operador de preparação de grãos vegetais (óleos e gorduras),7-79.70,8275
+8414-64,Prensador de frutas (exceto oleaginosas),7-78.80,8275
+8414-68,Preparador de rações,7-79.60,8275
+8414-72,Refinador de óleo e gordura,7-79.25,8275
+8414-76,Trabalhador de fabricação de margarina,7-75.60,8275
+8414-84,Trabalhador de preparação de pescados (limpeza),7-74.80,8271
+8415-05,Trabalhador de tratamento do leite e fabricação de laticínios e afins,7-75.10,8272
+8416-05,Misturador de café,7-77.30,8277
+8416-10,Torrador de café,7-77.50,8277
+8416-15,Moedor de café,7-77.75,8277
+8416-20,Operador de extração de café solúvel,7-77.80,8277
+8416-25,Torrador de cacau,7-77.60,8277
+8416-30,Misturador de chá ou mate,7-77.40,8277
+8417-05,Alambiqueiro,7-44.80,8278
+8417-10,Filtrador de cerveja,7-78.45,8278
+8417-15,Fermentador,7-78.35,8278
+8417-20,Trabalhador de fabricação de vinhos,7-78.50,8278
+8417-25,Malteiro (germinação),7-78.20,8278
+8417-30,Cozinhador de malte,7-78.30,8278
+8417-35,Dessecador de malte,7-78.25,8278
+8417-40,Vinagreiro,7-78.70,8278
+8417-45,Xaropeiro,7-78.55,8278
+8418-05,"Operador de forno (fabricação de pães, biscoitos e similares)",7-76.45,8274
+8418-15,Operador de máquinas de fabricação de chocolates e achocolatados,7-77.85,8274
+8421-05,Preparador de melado e essência de fumo,7-81.80,7416
+8421-15,Classificador de fumo,7-81.20,7416
+8421-25,Operador de máquina (fabricação de cigarros),7-83.20,8279
+8422-10,Operador de máquina de fabricar charutos e cigarrilhas,7-82.30,8279
+8422-30,Charuteiro a mão,7-82.20,8279
+8481-05,Defumador de carnes e pescados,7-74.60,7411
+8481-10,Salgador de alimentos,7-74.50,7411
+8481-15,"Salsicheiro (fabricação de lingüiça, salsicha e produtos similares)",7-74.70,7411
+8482-05,Pasteurizador,7-75.20,7413
+8482-10,Queijeiro na fabricação de laticínio,7-75.40,7413
+8482-15,Manteigueiro na fabricação de laticínio,7-75.30,7413
+8483-05,Padeiro,7-76.20,7412
+8483-10,Confeiteiro,7-76.60,7412
+8483-15,Masseiro (massas alimentícias),7-76.40,7412
+8483-25,Trabalhador de fabricação de sorvete,7-76.70,7412
+8484-05,Degustador de café,7-77.20,7415
+8484-10,Degustador de chá,7-77.27,7415
+8484-15,Degustador de derivados de cacau,7-77.25,7415
+8484-20,Degustador de vinhos ou licores,7-78.60,7415
+8485-05,Abatedor,7-73.15,7411
+8485-10,Açougueiro,4-90.30,7411
+8485-15,Desossador,7-73.25,7411
+8485-20,Magarefe,7-73.10,7411
+8485-25,Retalhador de carne,7-73.35,7411
+8601-05,Supervisor de manutenção eletromecânica (utilidades),7-03.40,7242
+8601-10,"Supervisor de operação de fluidos (distribuição, captação, tratamento de água, gases, vapor)",7-03.30,8163
+8601-15,"Supervisor de operação elétrica (geração, transmissão e distribuição de energia elétrica)",7-03.20,8161
+8611-05,Operador de central hidrelétrica,9-61.30,8161
+8611-10,Operador de quadro de distribuição de energia elétrica,9-61.60,8161
+8611-15,Operador de central termoelétrica,9-61.20,8161
+8611-20,Operador de reator nuclear,9-61.40,8161
+8612-05,Operador de subestação,9-61.80,8161
+8621-05,Foguista (locomotivas a vapor),9-83.30,8162
+8621-10,Maquinista de embarcações,9-82.15,8162
+8621-15,Operador de bateria de gás de hulha,7-49.25,8162
+8621-20,Operador de caldeira,9-69.30,8162
+8621-30,Operador de compressor de ar,9-69.20,8162
+8621-40,Operador de estação de bombeamento,9-69.40,8163
+8621-50,"Operador de máquinas fixas, em geral",9-69.10,8163
+8621-55,"Operador de utilidade (produção e distribuição de vapor, gás, óleo, combustível, energia, oxigênio)",7-49.47,8162
+8622-05,"Operador de estação de captação, tratamento e distribuição de água",9-69.50,8163
+8623-05,Operador de estação de tratamento de água e efluentes,9-69.55,8163
+8623-10,"Operador de forno de incineração no tratamento de água, efluentes e resíduos industriais",9-69.60,8163
+8624-05,"Operador de instalação de extração, processamento, envasamento e distribuição de gases",9-69.25,8163
+8625-05,Operador de instalação de refrigeração,9-69.70,8163
+8625-15,Operador de instalação de ar-condicionado,9-69.80,8163
+9101-05,Encarregado de manutenção mecânica de sistemas operacionais,7-05.20,7242
+9111-20,Mecânico de manutenção de motores diesel (exceto de veículos automotores),8-45.20,7233
+9111-30,Mecânico de manutenção de turbinas (exceto de aeronaves),8-45.25,7233
+9112-05,Mecânico de manutenção e instalação de aparelhos de climatização e refrigeração,8-45.80,7233
+9113-05,"Mecânico de manutenção de máquinas, em geral",8-45.10,7233
+9113-10,Mecânico de manutenção de máquinas gráficas,8-45.40,7233
+9113-15,Mecânico de manutenção de máquinas operatrizes (lavra de madeira),8-45.50,7233
+9113-20,Mecânico de manutenção de máquinas têxteis,8-45.45,7233
+9113-25,Mecânico de manutenção de máquinas-ferramentas (usinagem de metais),8-45.30,7233
+9131-05,Mecânico de manutenção de aparelhos de levantamento,8-45.75,7233
+9131-10,Mecânico de manutenção de equipamento de mineração,8-45.35,7231
+9131-15,Mecânico de manutenção de máquinas agrícolas,8-45.55,7233
+9131-20,Mecânico de manutenção de máquinas de construção e terraplenagem,8-45.60,7233
+9141-05,"Mecânico de manutenção de aeronaves, em geral",8-44.10,7232
+9141-10,Mecânico de manutenção de sistema hidráulico de aeronaves (serviços de pista e hangar),8-44.30,7233
+9143-05,Mecânico de manutenção de veículos ferroviários,8-45.85,7233
+9144-05,Mecânico de manutenção de automóveis e veículos similares,8-43.20,7231
+9144-15,Mecânico de manutenção de motocicletas,8-43.40,7231
+9144-20,Mecânico de manutenção de tratores,8-43.60,7231
+9144-25,Mecânico de veículos automotores a diesel (exceto tratores),8-43.50,7231
+9191-05,Lubrificador industrial,8-49.87,7233
+9191-10,Lubrificador de veículos automotores (exceto embarcações),8-49.77,7233
+9191-15,Lubrificador de embarcações,9-82.30,7233
+9193-10,Mecânico de manutenção de bicicletas e veículos similares,8-49.75,7233
+9511-05,Eletricista de manutenção eletroeletrônica,8-54.05,7241
+9531-05,Eletricista de instalações (aeronaves),8-55.30,7137
+9531-10,Eletricista de instalações (embarcações),8-55.35,7137
+9531-15,"Eletricista de instalações (veículos automotores e máquinas operatrizes, exceto aeronaves e embarcações)",8-55.40,7137
+9541-20,Mecânico de manutenção de instalações mecânicas de edifícios,8-45.70,7241
+9541-25,Operador eletromecânico,8-54.40,7241
+9542-05,Reparador de aparelhos eletrodomésticos (exceto imagem e som),8-54.30,7241
+9543-05,Reparador de equipamentos de escritório,8-45.65,7433
+9921-15,Borracheiro,9-02.40,8231

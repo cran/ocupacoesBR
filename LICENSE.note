@@ -1,0 +1,76 @@
+# Materiais de terceiros redistribuídos
+
+A licença MIT do pacote cobre o código em `R/`, `tests/` e `data-raw/*.R`.
+**Não** cobre os materiais abaixo, que são de terceiros e são redistribuídos
+com atribuição, nos termos que os seus autores definem. As tabelas em `data/`
+derivam desses materiais.
+
+---
+
+## 1. Sintaxes do International Stratification and Mobility File (ISMF)
+
+**Arquivos:** `data-raw/fontes/ganzeboom/*.sps` (14 arquivos)
+
+**Autores:** Harry B. G. Ganzeboom e Donald J. Treiman
+**Origem:** <http://www.harryganzeboom.nl/ismf/index.htm>
+
+São distribuídos pelos autores para uso público na pesquisa. Os autores pedem
+que o uso das ferramentas de conversão seja citado como:
+
+> Ganzeboom, Harry B. G.; Treiman, Donald J. *International Stratification and
+> Mobility File: Conversion Tools*. Amsterdam: Department of Social Research
+> Methodology. <http://www.harryganzeboom.nl/ismf/index.htm>
+
+Deles derivam, neste pacote: `isco88_medidas` (ISEI-88, SIOPS, tabela-base do
+EGP, rótulos), `isco08_medidas` (ISEI-08, SIOPS-08) e `isco88_isco08` (a ponte).
+A implementação do EGP em `R/egp.R` é um porte para R das regras de
+`iskopromo.sps` e `iskoegp.sps`.
+
+Os escores ISEI e as classes EGP têm as suas próprias referências primárias:
+
+> Ganzeboom, H. B. G.; De Graaf, P. M.; Treiman, D. J. (1992). A standard
+> international socio-economic index of occupational status. *Social Science
+> Research*, 21(1), 1–56.
+
+> Erikson, R.; Goldthorpe, J. H. (1992). "The class schema", em *The Constant
+> Flux*. Oxford: Clarendon Press, pp. 38–39.
+
+---
+
+## 2. Tábua de conversão CBO2002–CBO94–CIUO88
+
+**Arquivo:** `data-raw/fontes/tabua_oficial.csv`
+
+**Origem:** Ministério do Trabalho e Emprego, Classificação Brasileira de
+Ocupações. Consultada família a família em
+<http://www.mtecbo.gov.br/cbosite/pages/tabua/FiltroConversao_CBO2002_CBO94_CIUO88.jsf>
+
+É dado administrativo público, produzido e publicado por órgão do Estado
+brasileiro. Redistribuído aqui como cópia verificável da fonte, para que a
+geração dos dados do pacote seja reproduzível sem depender da disponibilidade do
+sítio. Dela derivam `cbo2002_isco88`, `cbo2002_familia_isco88` e `cbo94_isco88`.
+
+---
+
+## 3. Nota sobre o pacote DIGCLASS
+
+`DIGCLASS` (Cimentada et al.) é licenciado sob **GPL-3** e implementa parte das
+mesmas conversões a partir das mesmas fontes. Ele é usado **apenas como
+conferência**, num teste que compara a nossa implementação do EGP com a dele
+(`tests/testthat/test-fonte.R`); o teste é ignorado quando o pacote não está
+instalado. Nenhuma tabela, nenhum código e nenhum dado do DIGCLASS foi copiado
+para cá — as tabelas deste pacote são geradas das sintaxes originais do ISMF.
+Ele não é dependência e não consta de `Imports` nem de `Suggests` — e o teste
+que o usa não viaja no pacote distribuído, porque o `DIGCLASS` não está em
+repositório nenhum e declará-lo faria o `R CMD check` falhar em qualquer
+máquina sem ele instalado.
+
+Essa separação é deliberada: embarcar material GPL-3 tornaria o pacote inteiro
+copyleft — inclusive congelar a tabela dele como *fixture* de teste, que seria
+o modo óbvio de fixar a referência.
+
+A conferência registrada é contra a versão **0.0.3**, commit
+`abcaafdf8772b77de8d0f142f730788008e84f06`, de 14/08/2026. Ela está anotada em
+`inst/extdata/PROVENIENCIA.yml`, seção `conferencia_cruzada`, porque o
+`DIGCLASS` se instala do HEAD do GitHub e não de um repositório versionado: sem
+o registro, a única validação externa do pacote apontaria para um alvo móvel.
